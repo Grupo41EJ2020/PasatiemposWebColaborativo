@@ -16,5 +16,9 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult AndreaEstrada21()
+        {
+            return View();
+        }
     }
 }
