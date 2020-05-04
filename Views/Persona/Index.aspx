@@ -12,9 +12,91 @@
      <h1>Lista de Personas </h1>
     <br />
 <<<<<<< HEAD
+<<<<<<< HEAD
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
      <a href="/Persona/lesliemorales26">lesliemorales26</a>
     
+=======
+     <a href="/Persona/">LIIGabriel</a>
+    <br />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a href="/Persona/DanArzolaga">DanArzolaga</a>
+>>>>>>> 13c827f2360d33cb3c4a197af536a6a3b9e2b050
 =======
 
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
@@ -23,6 +105,7 @@
     <br />  
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
 
+>>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
 
 >>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
 </body>

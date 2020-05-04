@@ -17,6 +17,10 @@ namespace MVCLaboratorio.Controllers
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        public ActionResult DanArzolaga()
+>>>>>>> 13c827f2360d33cb3c4a197af536a6a3b9e2b050
 =======
 
 >>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
@@ -44,5 +48,6 @@ namespace MVCLaboratorio.Controllers
 >>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
 
 
+>>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
     }
 }
