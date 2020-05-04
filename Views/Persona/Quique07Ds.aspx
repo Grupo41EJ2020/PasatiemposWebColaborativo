@@ -9,7 +9,7 @@
 <body>
     <h1>Mis pasatiempos</h1>
     <h2>Tocar guitarra</h2>
-    <p>Me gustan las canciones de Juanes</p>
+    <p>Me gusta tocar las canciones de Juanes</p>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
