@@ -26,9 +26,9 @@
 
      <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
     <br />
-<<<<<<< HEAD
+
     <a href="/Persona/Debany1108">Debany1108</a>
-=======
+	<br /> 
     <a href="/Persona/DanArzolaga">DanArzolaga</a>
     <br />  
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
@@ -43,7 +43,7 @@
 
     <br />  
     <a href="/Home/Index">Regresar</a>
->>>>>>> 22e4332f65d3cc2e792b2111eff2005b4e764eed
+
 
 </body>
 </html>
