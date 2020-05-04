@@ -16,5 +16,11 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult AnaKarenLopez()
+        {
+            return View();
+        }
+
+
     }
 }
