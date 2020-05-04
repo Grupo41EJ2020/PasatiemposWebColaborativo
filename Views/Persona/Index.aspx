@@ -15,11 +15,35 @@
     <br />
     
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
+    <br />  
      <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
+    <br />  
      <a href="/Persona/lesliemorales26">lesliemorales26</a>
+    <br />  
      <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
+   
 
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <br />  
+     <a href="/Persona/jenniferhdzf">jenniferhdzf</a>
+          
     <br />
     
     
@@ -98,17 +122,9 @@
     
     
     <a href="/Persona/DanArzolaga">DanArzolaga</a>
->>>>>>> 13c827f2360d33cb3c4a197af536a6a3b9e2b050
-=======
-=======
->>>>>>> e379388dd016dfc7e9f7fef64c0a376e2081738c
-
-     <a href="/Persona/LIIGabriel">LIIGabriel</a>
     <br />  
    
-    <a href="/Persona/DanArzolaga">DanArzolaga</a>
-
-    <br />
+ 
     
      <a href="/Persona/Quique07Ds">Quique07Ds</a>
      <br />
@@ -118,8 +134,7 @@
 
     <a href="/Persona/Debany1108">Debany1108</a>
 	<br /> 
-    <a href="/Persona/DanArzolaga">DanArzolaga</a>
-    <br />  
+     
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
     <br />
     <a href="/Persona/NoelGamez">NoelGamez</a>
@@ -136,6 +151,6 @@
     <a href="/Home/Index">Regresar</a>
 
 
->>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
+
 </body>
 </html>
