@@ -11,13 +11,12 @@
     <hr />
      <h1>Lista de Personas </h1>
     <br />
-<<<<<<< HEAD
-<<<<<<< HEAD
+
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
+     <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
      <a href="/Persona/lesliemorales26">lesliemorales26</a>
-    
-=======
-     <a href="/Persona/">LIIGabriel</a>
+    <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
+
     <br />
     
     

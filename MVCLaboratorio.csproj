@@ -81,13 +81,9 @@
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Persona\AndreaEstrada21.aspx" />
     <Content Include="Views\Persona\Index.aspx" />
-<<<<<<< HEAD
     <Content Include="Views\Persona\lesliemorales26.aspx" />
     <Content Include="Views\Persona\LIIGabriel.aspx" />
-=======
-    <Content Include="Views\Persona\LIIGabriel.aspx" />
     <Content Include="Views\Persona\PriscilaCtz.aspx" />
->>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

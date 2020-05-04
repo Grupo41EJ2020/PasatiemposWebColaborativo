@@ -4,12 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>PriscilaCtz</title>
+    <title>Pasatiempos de PriscilaCtz</title>
 </head>
 <body>
     <div>
         <h1>Mis pasatiempos</h1>
-
         <h2>  Me gusta leer </h2>
         <p> Me gustan los libros de misterio</p>
 
