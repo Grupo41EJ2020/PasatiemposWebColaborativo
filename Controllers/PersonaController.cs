@@ -60,6 +60,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult Monse03()
+        {
+            return View();
+        }
 
 >>>>>>> 22e4332f65d3cc2e792b2111eff2005b4e764eed
     }
