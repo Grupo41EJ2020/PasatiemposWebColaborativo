@@ -4,15 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pasatiempos de AndreaEstrada21</title>
+    <title>Quique07Ds</title>
 </head>
 <body>
     <h1>Mis pasatiempos</h1>
-
-    <h2>Escuchar musica y leer</h2>
-    <p>Me gusta la musica en ingles</p>
-    <p>Me gusta leer libros de ficción</p>
-
+    <h2>Tocar guitarra</h2>
+    <p>Me gusta tocar las canciones de Juanes</p>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
