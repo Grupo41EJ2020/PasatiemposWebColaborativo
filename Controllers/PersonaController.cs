@@ -16,9 +16,10 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
-<<<<<<< HEAD
         public ActionResult DanArzolaga()
-=======
+        {
+            return View();
+        }
 
         public ActionResult LIIGabriel()
         {
@@ -26,19 +27,19 @@ namespace MVCLaboratorio.Controllers
         }
 
         public ActionResult AndreaEstrada21()
->>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
+
         {
             return View();
         }
 
-<<<<<<< HEAD
-=======
         public ActionResult PriscilaCtz()
         {
             return View();
         }
 
-
->>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
+        public ActionResult NoelGamez()
+        {
+            return View();
+        }
     }
 }
