@@ -27,5 +27,9 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult Debany1108()
+        {
+            return View();
+        }
     }
 }
