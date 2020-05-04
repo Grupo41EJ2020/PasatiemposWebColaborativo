@@ -11,8 +11,19 @@
     <hr />
      <h1>Lista de Personas </h1>
     <br />
+<<<<<<< HEAD
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
      <a href="/Persona/lesliemorales26">lesliemorales26</a>
     
+=======
+
+     <a href="/Persona/LIIGabriel">LIIGabriel</a>
+    <br />
+     <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
+    <br />  
+      <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
+
+
+>>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
 </body>
 </html>
