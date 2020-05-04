@@ -10,9 +10,10 @@
     <img src="../../Content/images/logo-facpya.png" />
     <hr />
      <h1>Lista de Personas </h1>
-    <br />
-     <a href="/Persona/Index">LIIGabriel</a>
+     <a href="/Persona/LIIGabriel">LIIGabriel</a>
      <br />  
      <a href="/Persona/Quique07Ds">Quique07Ds</a>
+     <br />
+     <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
 </body>
 </html>
