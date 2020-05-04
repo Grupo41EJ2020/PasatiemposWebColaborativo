@@ -4,15 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Quique07Ds</title>
 </head>
 <body>
-    <img src="../../Content/images/logo-facpya.png" />
-    <hr />
-     <h1>Lista de Personas </h1>
-    <br />
-     <a href="/Persona/Index">LIIGabriel</a>
-     <br />  
-     <a href="/Persona/Quique07Ds">Quique07Ds</a>
+    <h1>Mis pasatiempos</h1>
+    <h2>Tocar guitarra</h2>
+    <p>Me gustan las canciones de Juanes</p>
+    <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>

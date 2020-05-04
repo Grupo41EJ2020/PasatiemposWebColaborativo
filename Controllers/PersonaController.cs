@@ -16,5 +16,10 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult Quique07Ds()
+        {
+            return View();
+        }
+
     }
 }
