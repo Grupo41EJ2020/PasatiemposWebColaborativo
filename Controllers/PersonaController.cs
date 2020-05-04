@@ -16,6 +16,11 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult Quique07Ds()
+        {
+            return View();
+        }
+
         public ActionResult DanArzolaga()
         {
             return View();
@@ -35,7 +40,6 @@ namespace MVCLaboratorio.Controllers
 
 
         public ActionResult AndreaEstrada21()
-
         {
             return View();
         }

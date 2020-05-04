@@ -89,6 +89,7 @@
     <Content Include="Views\Persona\DanArzolaga.aspx" />
 
     <Content Include="Views\Persona\Index.aspx" />
+    <Content Include="Views\Persona\Quique07Ds.aspx" />
     <Content Include="Views\Persona\LIIGabriel.aspx" />
     <Content Include="Views\Persona\NoelGamez.aspx" />
     <Content Include="Views\Persona\PriscilaCtz.aspx" />

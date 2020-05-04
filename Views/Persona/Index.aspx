@@ -14,19 +14,29 @@
      <h1>Lista de Personas </h1>
     <br />
 
-
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
     <br />  
    
     <a href="/Persona/DanArzolaga">DanArzolaga</a>
 
     <br />
+    
+     <a href="/Persona/Quique07Ds">Quique07Ds</a>
+     <br />
+
      <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
+    <br />
+    <a href="/Persona/DanArzolaga">DanArzolaga</a>
     <br />  
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
     <br />
     <a href="/Persona/NoelGamez">NoelGamez</a>
     <br />  
+
      <a href="/Persona/AnaKarenLopez">AnaKarenLopez</a>
+
+    <br />  
+    <a href="/Home/Index">Regresar</a>
+
 </body>
 </html>
