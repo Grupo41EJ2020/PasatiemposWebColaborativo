@@ -4,15 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+      <title>Pasatiempos de LIIGabriel</title>
 </head>
 <body>
-    <img src="../../Content/images/logo-facpya.png" />
-    <hr />
-     <h1>Lista de Personas </h1>
-    <br />
-     <a href="/Persona/LIIGabriel">LIIGabriel</a>
-     <a href="/Persona/lesliemorales26">lesliemorales26</a>
-    
+    <h1>Mis pasatiempos</h1>
+    <h2>Ver series</h2>
+    <p>Me gustan las series de Netflix</p>
+
+    <a href="/Persona/Index">Regresar al menu</a>
 </body>
 </html>
