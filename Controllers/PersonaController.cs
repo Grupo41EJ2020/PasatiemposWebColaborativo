@@ -16,6 +16,10 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult DanArzolaga()
+        {
+            return View();
+        }
 
         public ActionResult AnaKarenLopez()
         {
@@ -31,10 +35,21 @@ namespace MVCLaboratorio.Controllers
 
 
         public ActionResult AndreaEstrada21()
+
         {
             return View();
         }
 
+
+        public ActionResult PriscilaCtz()
+        {
+            return View();
+        }
+
+        public ActionResult NoelGamez()
+        {
+            return View();
+        }
 
     }
 }
