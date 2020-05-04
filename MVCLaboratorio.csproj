@@ -79,21 +79,14 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
-
     <Content Include="Views\Persona\AnaKarenLopez.aspx" />
-
     <Content Include="Views\Persona\AndreaEstrada21.aspx" />
-
-
-
+    <Content Include="Views\Persona\Debany1108.aspx" />
     <Content Include="Views\Persona\DanArzolaga.aspx" />
-
     <Content Include="Views\Persona\Index.aspx" />
-<<<<<<< HEAD
     <Content Include="Views\Persona\lesliemorales26.aspx" />
-=======
+    <Content Include="Views\Persona\Monse03.aspx" />
     <Content Include="Views\Persona\Quique07Ds.aspx" />
->>>>>>> e379388dd016dfc7e9f7fef64c0a376e2081738c
     <Content Include="Views\Persona\LIIGabriel.aspx" />
     <Content Include="Views\Persona\NoelGamez.aspx" />
     <Content Include="Views\Persona\PriscilaCtz.aspx" />

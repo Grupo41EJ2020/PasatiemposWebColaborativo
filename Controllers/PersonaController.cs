@@ -16,6 +16,26 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult LIIGabriel()
+        {
+            return View();
+        }
+
+        public ActionResult AndreaEstrada21()
+        {
+            return View();
+        }
+
+        public ActionResult lesliemorales26()
+        {
+            return View();
+        }
+
+        public ActionResult PriscilaCtz()
+        {
+            return View();
+        }
+
         public ActionResult Quique07Ds()
         {
             return View();
@@ -31,35 +51,20 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
-        public ActionResult LIIGabriel()
-
+        public ActionResult Debany1108()
         {
             return View();
         }
-
-         public ActionResult AndreaEstrada21()
-
-        {
-            return View();
-        }
-
-        public ActionResult lesliemorales26()
-         {
-             return View();
-         }
-
-
-        public ActionResult PriscilaCtz()
-        {
-            return View();
-        }
-
 
         public ActionResult NoelGamez()
         {
             return View();
         }
 
+        public ActionResult Monse03()
+        {
+            return View();
+        }
 
     }
 }
