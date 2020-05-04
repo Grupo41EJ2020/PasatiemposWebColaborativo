@@ -4,18 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Pasatiempos de AndreaEstrada21</title>
 </head>
 <body>
-    <img src="../../Content/images/logo-facpya.png" />
-    <hr />
-     <h1>Lista de Personas </h1>
-    <br />
+    <h1>Mis pasatiempos</h1>
 
-     <a href="/Persona/LIIGabriel">LIIGabriel</a>
-    <br />
-     <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
+    <h2>Escuchar musica</h2>
+    <p>Me gusta la musica en ingles</p>
 
-
+    <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
