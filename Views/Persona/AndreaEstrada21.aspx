@@ -9,8 +9,9 @@
 <body>
     <h1>Mis pasatiempos</h1>
 
-    <h2>Escuchar musica</h2>
+    <h2>Escuchar musica y leer</h2>
     <p>Me gusta la musica en ingles</p>
+    <p>Me gusta leer libros de ficción</p>
 
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
