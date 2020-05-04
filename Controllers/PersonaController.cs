@@ -27,5 +27,11 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult PriscilaCtz()
+        {
+            return View();
+        }
+
+
     }
 }
