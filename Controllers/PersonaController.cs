@@ -16,14 +16,11 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
-<<<<<<< HEAD
         public ActionResult Quique07Ds()
         {
             return View();
         }
 
-=======
->>>>>>> 615a5065cf2183244fda1cd52bdaed7fed180678
         public ActionResult DanArzolaga()
         {
             return View();
@@ -35,10 +32,6 @@ namespace MVCLaboratorio.Controllers
         }
 
         public ActionResult AndreaEstrada21()
-<<<<<<< HEAD
-=======
-
->>>>>>> 615a5065cf2183244fda1cd52bdaed7fed180678
         {
             return View();
         }
@@ -47,13 +40,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
-=======
 
         public ActionResult NoelGamez()
         {
             return View();
         }
->>>>>>> 615a5065cf2183244fda1cd52bdaed7fed180678
     }
 }
