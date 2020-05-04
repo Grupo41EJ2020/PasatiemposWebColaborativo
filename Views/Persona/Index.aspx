@@ -17,7 +17,7 @@
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
      <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
      <a href="/Persona/lesliemorales26">lesliemorales26</a>
-    <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
+     <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
 
      
     <br />
@@ -115,9 +115,9 @@
 
      <a href="/Persona/AndreaEstrada21">AndreaEstrada21</a>
     <br />
-<<<<<<< HEAD
+
     <a href="/Persona/Debany1108">Debany1108</a>
-=======
+	<br /> 
     <a href="/Persona/DanArzolaga">DanArzolaga</a>
     <br />  
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
@@ -130,9 +130,11 @@
     <br />  
      <a href="/Persona/Monse03">Monse03</a>
 
+    <br />
+     <a href="Persona/SantosGuzman01">SantosGuzman01</a>
     <br />  
     <a href="/Home/Index">Regresar</a>
->>>>>>> 22e4332f65d3cc2e792b2111eff2005b4e764eed
+
 
 >>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
 </body>

@@ -52,6 +52,7 @@ namespace MVCLaboratorio.Controllers
         }
 
         public ActionResult Debany1108()
+
         {
             return View();
         }
@@ -65,6 +66,11 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult SantosGuzman01()
+        {
+            return View();
+        }
+
 
     }
 }
