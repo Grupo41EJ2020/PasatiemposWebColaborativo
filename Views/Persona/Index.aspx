@@ -1,7 +1,9 @@
 ﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
 
+</script>
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Index</title>
@@ -10,6 +12,12 @@
     <img src="../../Content/images/logo-facpya.png" />
     <hr />
      <h1>Lista de Personas </h1>
+<<<<<<< HEAD
+=======
+    <br />
+    <a href="/Persona/DanArzolaga">DanArzolaga</a>
+    <br />
+>>>>>>> 615a5065cf2183244fda1cd52bdaed7fed180678
      <a href="/Persona/LIIGabriel">LIIGabriel</a>
      <br />  
      <a href="/Persona/Quique07Ds">Quique07Ds</a>
@@ -19,5 +27,10 @@
     <a href="/Persona/DanArzolaga">DanArzolaga</a>
     <br />  
       <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
+<<<<<<< HEAD
+=======
+    <br />
+    <a href="/Persona/NoelGamez">NoelGamez</a>
+>>>>>>> 615a5065cf2183244fda1cd52bdaed7fed180678
 </body>
 </html>
