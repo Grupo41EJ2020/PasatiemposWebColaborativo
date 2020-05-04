@@ -74,7 +74,11 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
-
-
+       public ActionResult Alancrypto()
+       {
+           return View();
+       }
+    
+        
     }
 }
