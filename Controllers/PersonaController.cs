@@ -16,10 +16,29 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public ActionResult DanArzolaga()
+=======
+
+        public ActionResult LIIGabriel()
         {
             return View();
         }
 
+        public ActionResult AndreaEstrada21()
+>>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
+        {
+            return View();
+        }
+
+<<<<<<< HEAD
+=======
+        public ActionResult PriscilaCtz()
+        {
+            return View();
+        }
+
+
+>>>>>>> 58566938a0f49ac299a4b20229baaa529fded628
     }
 }
