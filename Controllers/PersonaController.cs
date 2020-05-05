@@ -93,5 +93,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult danielamaldonadognz()
+       {
+           return View();
+       }
     }
 }
