@@ -78,6 +78,11 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult Edalmaj()
+       {
+           return View();
+       }
     
         
     }
