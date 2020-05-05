@@ -26,3 +26,38 @@
 {
     display: none;
 }
+
+body 
+{
+    background-color:#191919;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h1
+{
+    font-size:50px;
+}
+
+h1, h2, ul
+{
+    font-family:Arial;
+    color:#F9F9F9;
+}
+
+h3
+{
+    display:inline-block;
+    line-height:10px;
+    font-family:Arial;
+    font-size:40px;
+    color:#AB0000;
+    padding:100px;
+    margin:100px;
+}
+
+a 
+{
+    font-family:Arial;
+    color:White;
+}
