@@ -98,5 +98,9 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+       public ActionResult mauricioTapia()
+       {
+           return View();
+       }
     }
 }
