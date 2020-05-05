@@ -67,6 +67,9 @@
     <a href="/Persona/danielamaldonadognz">danielamaldonadognz</a>
 
     <br /> 
+    
+    <a href="/Persona/mauricioTapia">mauricioTapia</a>
+    <br /> 
 
     <a href="/Home/Index">Regresar</a>
 </body>
