@@ -90,6 +90,7 @@
     <Content Include="Views\Persona\Debany1108.aspx" />
     <Content Include="Views\Persona\DanArzolaga.aspx" />
     <Content Include="Views\Persona\Edalmaj.aspx" />
+    <Content Include="Views\Persona\ialemares.aspx" />
     <Content Include="Views\Persona\Index.aspx" />
     <Content Include="Views\Persona\JassoB57.aspx" />
     <Content Include="Views\Persona\JahirGranados.aspx" />
@@ -108,10 +109,14 @@
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
+    <Content Include="Views\Video\Edalmaj.aspx" />
+    <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
+    <Content Include="Views\Video\SantosGuzman01.aspx" />
+    <Content Include="Views\Video\raulantonio177.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

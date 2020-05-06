@@ -45,17 +45,6 @@ h1, h2, ul
     color:#F9F9F9;
 }
 
-h3
-{
-    display:inline-block;
-    line-height:10px;
-    font-family:Arial;
-    font-size:40px;
-    color:#AB0000;
-    padding:100px;
-    margin:100px;
-}
-
 a 
 {
     font-family:Arial;

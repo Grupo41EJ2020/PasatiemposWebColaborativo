@@ -15,10 +15,12 @@
         <li>Escuchar Música</li>
         <li>Jugar LoL</li>
     </ul>
-    <h3>Canción Favorita</h3>
+    <h2>Canción Favorita</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/u6lihZAcy4s"
      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
      picture-in-picture" allowfullscreen></iframe>
+     <br />
+    <a href="/Video/Edalmaj">Ver Videos</a>
     <br />
      <a href="/Persona/Index">Regresar</a>
 </body>

@@ -4,19 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pasatiempos de raulantonio177</title>
+    <title>Pasatiempos de ialemares</title>
 </head>
 <body>
-    <h1>Mis pasatiempos</h1>
-
-    <ul>
-        <li>Hacer ejercicio</li>
-        <li>Programar</li>
-        <li>Cocinar</li>
-        <li>Cantar</li>
-    </ul>
     
-    <a href="/Video/raulantonio177">Ver videos</a>
+    <h1> Mis Pasatiempos </h1>
+    <h2> Ver peliculas </h2>
+    <p> Me gustan las peliculas de terror </p>
+
+    <a href="/Video/ialemares">Ver videos</a>
+
     <a href="/Persona/Index">Regresar a la lista</a>
+
 </body>
 </html>
