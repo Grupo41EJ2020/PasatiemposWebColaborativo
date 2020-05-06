@@ -89,7 +89,11 @@
     <Content Include="Views\Persona\DanArzolaga.aspx" />
     <Content Include="Views\Persona\Edalmaj.aspx" />
     <Content Include="Views\Persona\Index.aspx" />
+<<<<<<< HEAD
     <Content Include="Views\Persona\JassoB57.aspx" />
+=======
+    <Content Include="Views\Persona\JahirGranados.aspx" />
+>>>>>>> 04ba26ceff28b0cda2c15324ca1cce985bcd493a
     <Content Include="Views\Persona\jenniferhdzf.aspx" />
     <Content Include="Views\Persona\lesliemorales26.aspx" />
     <Content Include="Views\Persona\mauricioTapia.aspx" />

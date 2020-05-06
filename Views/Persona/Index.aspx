@@ -75,9 +75,15 @@
     
     <br /> 
 
+<<<<<<< HEAD
     <a href="/Persona/JassoB57">JassoB57</a>
 
      <br /> 
+=======
+    <a href="/Persona/JahirGranados">JahirGranados</a>
+
+    <br />
+>>>>>>> 04ba26ceff28b0cda2c15324ca1cce985bcd493a
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>
