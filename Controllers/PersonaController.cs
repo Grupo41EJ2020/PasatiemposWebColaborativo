@@ -102,5 +102,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult Ashbatis30()
+       {
+           return View();
+       }
     }
 }

@@ -71,6 +71,10 @@
     <a href="/Persona/mauricioTapia">mauricioTapia</a>
     <br /> 
 
+    <a href="/Persona/Ashbatis30">Ashbatis30</a>
+    
+    <br /> 
+
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>
