@@ -11,6 +11,8 @@
     <h2>Ver series</h2>
     <p>Me gustan las series de Netflix</p>
 
+
+    <a href="/Video/LIIGabriel">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
