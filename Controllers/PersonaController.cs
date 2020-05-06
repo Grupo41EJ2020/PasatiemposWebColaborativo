@@ -107,5 +107,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult JahirGranados()
+       {
+           return View();
+       }
     }
 }

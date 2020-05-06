@@ -75,6 +75,9 @@
     
     <br /> 
 
+    <a href="/Persona/JahirGranados">JahirGranados</a>
+
+    <br />
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>
