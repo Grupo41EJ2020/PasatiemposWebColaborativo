@@ -9,7 +9,8 @@
 <body>
 <h1>Mi pasatiempo</h1>
 <h2>Me gusta dormir</h2>
-    <p>(Y mas en cuarentena)</p>
+    <p>Y ver videos en Youtube</p>
+    <a href="/Video/NoelGamez">Ver Videos</a>
     <a href="/Persona/Index">Regresar</a>
 </body>
 </html>
