@@ -12,6 +12,8 @@
     <h2> Ver peliculas </h2>
     <p> Me gustan las peliculas de terror </p>
 
+    <a href="/Video/ialemares">Ver videos</a>
+
     <a href="/Persona/Index">Regresar a la lista</a>
 
 </body>

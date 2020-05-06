@@ -163,9 +163,9 @@ namespace MVCLaboratorio.Controllers
                 lstvideos.Add(datosVideo);
 
             }
-
             return View(lstvideos);
         }
+<<<<<<< HEAD
         public ActionResult SantosGuzman01()
         {
             DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
@@ -184,6 +184,53 @@ namespace MVCLaboratorio.Controllers
                 lstvideos.Add(datosVideo);
             }
             return View(lstvideos);
+=======
+
+<<<<<<< HEAD
+
+             public ActionResult ialemares()
+        {
+                 DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+                 List<Video> lstvideos = new List<Video>();
+
+                 foreach (DataRow item in dtVideos.Rows)
+                 {
+                     Video datosVideo = new Video();
+
+                     datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                     datosVideo.Nombre= item["Nombre"].ToString();
+                     datosVideo.Url= item["Url"].ToString();
+                     datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                     lstvideos.Add(datosVideo);
+                 }
+                 
+                 return View(lstvideos);
+        }
+
+            
+=======
+        public ActionResult raulantonio177()
+        {
+            DataTable datosVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> listaVideo = new List<Video>();
+
+            foreach (DataRow video in datosVideo.Rows)
+            {
+                Video oVideo = new Video();
+
+                oVideo.IdVideo = int.Parse(video["IDVIDEO"].ToString());
+                oVideo.Nombre = video["NOMBRE"].ToString();
+                oVideo.Url = video["URL"].ToString();
+                oVideo.FechaPublicacion = DateTime.Parse(video["FECHAPUBLICACION"].ToString());
+
+                listaVideo.Add(oVideo);
+            }
+            return View(listaVideo);
+>>>>>>> 63335d6558e6d771b42c5890af01610ca09370f1
+>>>>>>> e3180a814192cc8db22ddad4e6b43ae8e59418b8
         }
     }
-}
+
