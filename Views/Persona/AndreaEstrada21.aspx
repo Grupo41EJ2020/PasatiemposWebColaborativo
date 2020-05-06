@@ -13,6 +13,7 @@
     <p>Me gusta la musica en ingles</p>
     <p>Me gusta leer libros de ficción</p>
 
+    <a href="/Video/AndreaEstrada21">Ver Videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>

@@ -105,6 +105,7 @@
     <Content Include="Views\Persona\PriscilaCtz.aspx" />
     <Content Include="Views\Persona\raulantonio177.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
+    <Content Include="Views\Video\AndreaEstrada21.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
