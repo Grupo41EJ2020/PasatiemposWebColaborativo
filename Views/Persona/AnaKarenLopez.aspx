@@ -12,6 +12,7 @@
     <h2>    Me gusta ver peliculas y series</h2>
     <p> Me gusta la casa de papel</p>
 
+    <a href="/Video/AnaKarenLopez">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
