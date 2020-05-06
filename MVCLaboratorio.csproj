@@ -106,6 +106,7 @@
     <Content Include="Views\Persona\raulantonio177.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
+    <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

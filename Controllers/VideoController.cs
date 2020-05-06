@@ -44,7 +44,23 @@ namespace MVCLaboratorio.Controllers
 
             return View(lstvideos);
         }
+        public ActionResult Monse03()
+        {
 
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+            List<Video> Istvideos = new List<Video>();
 
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video datosVideo = new Video();
+                datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                datosVideo.Nombre = item["Nombre"].ToString();
+                datosVideo.Url = item["Url"].ToString();
+                datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+                Istvideos.Add(datosVideo);
+            }
+            return View(Istvideos);
+
+        }
     }
 }

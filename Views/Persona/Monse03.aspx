@@ -9,7 +9,8 @@
 <body>
    <h1>Mi pasatiempo</h1>
 <p>Me gusta ver peliculas y serie de romance y drama</p>
-    
+    <a href="/Video/Monse03">Ver videos</a>
+    <br />
     <a href="/Persona/Index">Regresar</a>
 </body>
 </html>
