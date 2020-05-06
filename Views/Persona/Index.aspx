@@ -75,13 +75,22 @@
     
     <br /> 
 
+<<<<<<< HEAD
+    <a href="/Persona/JassoB57">JassoB57</a>
+
+     <br /> 
+=======
     <a href="/Persona/JahirGranados">JahirGranados</a>
 
     <br />
+<<<<<<< HEAD
 
     <a href="/Persona/JAOG2000">JAOG2000</a>
 
     <br />
+=======
+>>>>>>> 04ba26ceff28b0cda2c15324ca1cce985bcd493a
+>>>>>>> 75d7d2179b1e9cfa715bbf8ac8d43cd51596c487
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>
