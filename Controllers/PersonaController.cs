@@ -127,5 +127,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult ialemares()
+       {
+           return View();
+       }
     }
 }
