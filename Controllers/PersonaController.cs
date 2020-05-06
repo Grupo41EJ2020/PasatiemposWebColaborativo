@@ -112,5 +112,9 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+       public ActionResult JonathanVazquez()
+       {
+           return View();
+       }
     }
 }
