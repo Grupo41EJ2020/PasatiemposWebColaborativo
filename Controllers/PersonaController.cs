@@ -107,12 +107,14 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
-<<<<<<< HEAD
+
        public ActionResult JassoB57()
-=======
+       {
+           return View();
+       }
 
        public ActionResult JahirGranados()
->>>>>>> 04ba26ceff28b0cda2c15324ca1cce985bcd493a
+
        {
            return View();
        }
