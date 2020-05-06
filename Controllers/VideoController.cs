@@ -166,6 +166,7 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
+<<<<<<< HEAD
 
              public ActionResult ialemares()
         {
@@ -189,6 +190,26 @@ namespace MVCLaboratorio.Controllers
         }
 
             
+=======
+        public ActionResult raulantonio177()
+        {
+            DataTable datosVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> listaVideo = new List<Video>();
+
+            foreach (DataRow video in datosVideo.Rows)
+            {
+                Video oVideo = new Video();
+
+                oVideo.IdVideo = int.Parse(video["IDVIDEO"].ToString());
+                oVideo.Nombre = video["NOMBRE"].ToString();
+                oVideo.Url = video["URL"].ToString();
+                oVideo.FechaPublicacion = DateTime.Parse(video["FECHAPUBLICACION"].ToString());
+
+                listaVideo.Add(oVideo);
+            }
+            return View(listaVideo);
+>>>>>>> 63335d6558e6d771b42c5890af01610ca09370f1
         }
     }
 
