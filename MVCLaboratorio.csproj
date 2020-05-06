@@ -90,6 +90,7 @@
     <Content Include="Views\Persona\Edalmaj.aspx" />
     <Content Include="Views\Persona\Index.aspx" />
     <Content Include="Views\Persona\JahirGranados.aspx" />
+    <Content Include="Views\Persona\JAOG2000.aspx" />
     <Content Include="Views\Persona\jenniferhdzf.aspx" />
     <Content Include="Views\Persona\lesliemorales26.aspx" />
     <Content Include="Views\Persona\mauricioTapia.aspx" />

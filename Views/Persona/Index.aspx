@@ -78,6 +78,10 @@
     <a href="/Persona/JahirGranados">JahirGranados</a>
 
     <br />
+
+    <a href="/Persona/JAOG2000">JAOG2000</a>
+
+    <br />
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>

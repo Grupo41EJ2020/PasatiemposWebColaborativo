@@ -112,5 +112,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+
+       public ActionResult JAOG2000()
+       {
+           return View();
+       }
     }
 }
