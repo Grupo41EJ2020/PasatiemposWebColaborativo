@@ -12,6 +12,7 @@
     <h2> Juegar videojuegos </h2>
     <p> Juegar videojuesgos de computadora </p>
 
+    <a href="/Video/SantosGuzman01">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
