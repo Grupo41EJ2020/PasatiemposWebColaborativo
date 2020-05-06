@@ -75,11 +75,20 @@
     
     <br /> 
 
+
+    <a href="/Persona/JassoB57">JassoB57</a>
+
+     <br /> 
+
     <a href="/Persona/JahirGranados">JahirGranados</a>
 
     <br />
 
     <a href="/Persona/JonathanVazquez">JonathanVazquez</a>
+    <br />
+
+    <a href="/Persona/JAOG2000">JAOG2000</a>
+
     <br />
 
     <a href="/Home/Index">Regresar</a>
