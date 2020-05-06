@@ -75,6 +75,9 @@
     
     <br /> 
 
+    <a href="/Persona/JassoB57">JassoB57</a>
+
+     <br /> 
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>

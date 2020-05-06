@@ -107,5 +107,9 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+       public ActionResult JassoB57()
+       {
+           return View();
+       }
     }
 }
