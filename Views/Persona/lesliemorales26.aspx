@@ -11,6 +11,7 @@
     <h2>Dibujar</h2>
     <p>Me gusta dibujar y pintar en mis ratos libres</p>
 
+    <a href="/Video/lesliemorales26">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
