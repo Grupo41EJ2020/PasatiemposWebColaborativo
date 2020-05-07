@@ -132,5 +132,9 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+        public ActionResult DANI1356779()
+       {
+           return View();
+       }
     }
 }
