@@ -107,6 +107,7 @@
     <Content Include="Views\Persona\PriscilaCtz.aspx" />
     <Content Include="Views\Persona\raulantonio177.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
+    <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
     <Content Include="Views\Video\DANI1356779.aspx" />
@@ -119,6 +120,7 @@
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
     <Content Include="Views\Video\raulantonio177.aspx" />
+    <Content Include="Views\Video\YaelMendez23.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

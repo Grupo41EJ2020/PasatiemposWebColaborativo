@@ -136,5 +136,10 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+        public ActionResult YaelMendez23()
+        {
+            return View();
+        } 
+
     }
 }
