@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Mis pasatiempos</h1>
-    <h2>m gusta ver series</h2>
+    <h2>me gusta ver series y peliculas</h2>
     <p>En especial si son de misterio y suspenso</p>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
