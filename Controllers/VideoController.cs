@@ -154,6 +154,26 @@ namespace MVCLaboratorio.Controllers
             return View(listaVideo);
 
         }
+        public ActionResult mauricioTapia()
+        {
+            DataTable Datos_Video = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> lista_Video = new List<Video>();
+
+            foreach (DataRow item in Datos_Video.Rows)
+            {
+                Video dts_video = new Video();
+
+                dts_video.IdVideo = int.Parse(item["IdVideo"].ToString());
+                dts_video.Nombre = item["Nombre"].ToString();
+                dts_video.Url = item["Url"].ToString();
+                dts_video.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                lista_Video.Add(dts_video);
+            }
+            return View(lista_Video);
+        }
+
         public ActionResult DANI1356779()
         {
             DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
