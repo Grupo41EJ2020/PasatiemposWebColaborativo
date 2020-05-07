@@ -97,13 +97,13 @@
     <a href="/Persona/DANI1356779">DANI1356779</a> 
 
     <br /> 
-<<<<<<< HEAD
+
     <a href="/Persona/YaelMendez23">YaelMendez23</a> 
     <br /> 
-=======
+
     <a href="/Persona/Alexibarra999">Alexibarra999</a>
     <br />
->>>>>>> 2ff515e79688dc7c6c12da6dc7d67a5b66edf533
+
 
     <a href="/Home/Index">Regresar</a>
 </body>
