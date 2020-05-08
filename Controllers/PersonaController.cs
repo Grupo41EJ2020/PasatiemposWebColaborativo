@@ -146,6 +146,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult ghs29()
+        {
+            return View();
+        }
 
     }
 }
