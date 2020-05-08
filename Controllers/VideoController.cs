@@ -217,6 +217,29 @@ namespace MVCLaboratorio.Controllers
 
             return View(lstvideos);
         }
+
+        public ActionResult DanArzolaga()
+        {
+            //obtener los videos de la base de datos
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> lstVideo = new List<Video>();
+
+            //convertir el DataTable en List
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video dtsVideo = new Video();
+
+                dtsVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                dtsVideo.Nombre = item["Nombre"].ToString();
+                dtsVideo.Url = item["Url"].ToString();
+                dtsVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                lstVideo.Add(dtsVideo);
+            }
+
+            return View(lstVideo);
+        }
     }
 
 
