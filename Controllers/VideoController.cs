@@ -282,15 +282,33 @@ namespace MVCLaboratorio.Controllers
                 datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
 
 
-                lstvideos.Add(datosVideo);
+                lstVideo.Add(datosVideo);
             }
 
-            return View(lstvideos);
-
-                
+                return View(lstVideo);       
             }
 
-            
+        public ActionResult jahirgranadosV()
+        {
+            //Carga los videos desde la base de datos
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> lstVideos = new List<Video>();
+
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video datosVideo = new Video();
+
+                datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                datosVideo.Nombre = item["Nombre"].ToString();
+                datosVideo.Url = item["Url"].ToString();
+                datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                lstVideos.Add(datosVideo);
+            }
+            return View(lstVideos);
+
+        }
 
         }
     }
