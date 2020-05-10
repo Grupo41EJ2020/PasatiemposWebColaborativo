@@ -13,6 +13,8 @@
     <br /> 
     <p> Me gusta verlo y jugarlo con mi familia y amigos     </p>
 
+    <a href="/Video/JassoB57">ver Videos</a>
+    <h1>        </h1>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
