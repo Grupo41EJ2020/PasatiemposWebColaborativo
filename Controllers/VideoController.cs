@@ -240,18 +240,29 @@ namespace MVCLaboratorio.Controllers
 
             return View(lstVideo);
         }
-<<<<<<< HEAD
+
         public ActionResult JassoB57()
         {
-            //obtener todos los videos
+            //obtener los videos de la base de datos
             DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
 
-            List<Video> lstvideos = new List<Video>();
+            List<Video> lstVideo = new List<Video>();
 
-            //convertir el DataTable en List<Video>
+            //convertir el DataTable en List
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video dtsVideo = new Video();
 
-=======
+                dtsVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                dtsVideo.Nombre = item["Nombre"].ToString();
+                dtsVideo.Url = item["Url"].ToString();
+                dtsVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
 
+                lstVideo.Add(dtsVideo);
+            }
+
+            return View(lstVideo);
+        }
         public ActionResult luiks13()
         {
             //obtiene los videos en la base de datos
@@ -260,7 +271,7 @@ namespace MVCLaboratorio.Controllers
             List<Video> lstVideo = new List<Video>();
 
             //convierte el DataTable en List
->>>>>>> c5111be6a712422d0f9f69da2ae88fb0ffa65130
+
             foreach (DataRow item in dtVideos.Rows)
             {
                 Video datosVideo = new Video();
@@ -270,19 +281,19 @@ namespace MVCLaboratorio.Controllers
                 datosVideo.Url = item["Url"].ToString();
                 datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
 
-<<<<<<< HEAD
+
                 lstvideos.Add(datosVideo);
             }
 
             return View(lstvideos);
-=======
-                lstVideo.Add(datosVideo);
+
+                
             }
 
-            return View(lstVideo);
->>>>>>> c5111be6a712422d0f9f69da2ae88fb0ffa65130
+            
+
         }
     }
 
 
-}
+
