@@ -150,6 +150,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult luiks13()
+        {
+            return View();
+        }
 
     }
 }

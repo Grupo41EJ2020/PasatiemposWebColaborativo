@@ -240,6 +240,29 @@ namespace MVCLaboratorio.Controllers
 
             return View(lstVideo);
         }
+
+        public ActionResult luiks13()
+        {
+            //obtiene los videos en la base de datos
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+            List<Video> lstVideo = new List<Video>();
+
+            //convierte el DataTable en List
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video datosVideo = new Video();
+
+                datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                datosVideo.Nombre = item["Nombre"].ToString();
+                datosVideo.Url = item["Url"].ToString();
+                datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                lstVideo.Add(datosVideo);
+            }
+
+            return View(lstVideo);
+        }
     }
 
 
