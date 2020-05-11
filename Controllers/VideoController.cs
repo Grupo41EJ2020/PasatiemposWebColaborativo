@@ -44,7 +44,7 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
-        public ActionResult Quique07Ds(int id)
+        public ActionResult Quique07DsDetails(int id)
         {
              //consultar los datos del video
             List<SqlParameter> parametros = new List<SqlParameter>();

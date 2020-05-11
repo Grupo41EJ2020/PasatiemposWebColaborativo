@@ -144,6 +144,8 @@
     <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
+    <Content Include="Views\Video\Quique07Ds.aspx" />
+    <Content Include="Views\Video\Quique07DsDetails.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
     <Content Include="Views\Video\raulantonio177.aspx" />
     <Content Include="Views\Video\SantosGuzman01Details.aspx" />
