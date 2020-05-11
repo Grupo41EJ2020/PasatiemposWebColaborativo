@@ -15,6 +15,7 @@
     <p>Estoy comenzando a practicar la lectura por iniciativa propia ¿Me pueden recomendar algun buen libro?
     </p>
 
+    <a href="/Video/JustAlvaro">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 
 </body>
