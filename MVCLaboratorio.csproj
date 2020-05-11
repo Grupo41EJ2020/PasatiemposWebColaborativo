@@ -121,6 +121,7 @@
     <Content Include="Views\Persona\raulantonio177.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
@@ -133,6 +134,7 @@
     <Content Include="Views\Video\Edalmaj.aspx" />
     <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
+    <Content Include="Views\Video\LIIGabrielDetails.aspx" />
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
@@ -162,9 +164,7 @@
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Shared\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
