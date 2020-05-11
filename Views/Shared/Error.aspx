@@ -4,13 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>NoelGamez</title>
+    <title>Error</title>
 </head>
 <body>
-<h1>Mi pasatiempo</h1>
-<h2>Me gusta dormir</h2>
-    <p>Y ver videos en Youtube</p>
-    <a href="/Video/NoelGamez">Ver Videos</a>
-    <a href="/Persona/Index">Regresar</a>
+    <h1>No se puede procesar su solicitud
+    </h1>
 </body>
 </html>

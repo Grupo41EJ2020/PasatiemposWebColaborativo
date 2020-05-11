@@ -4,16 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pasatiempos de LIIGabriel</title>
+     <title>Pasatiempos de LIIGabriel</title>
 </head>
 <body>
     <h1>Mis pasatiempos</h1>
-
     <h2>Ver series</h2>
-    <p>Me gustan las series de NetFlix</p>
+    <p>Me gustan las series de Netflix</p>
 
+    <a href="/Video/LIIGabriel">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
-
-
 </body>
 </html>
+
+
+
+

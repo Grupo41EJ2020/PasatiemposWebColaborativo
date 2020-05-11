@@ -4,13 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>NoelGamez</title>
+    <title>JonathanVazquez</title>
 </head>
 <body>
-<h1>Mi pasatiempo</h1>
-<h2>Me gusta dormir</h2>
-    <p>Y ver videos en Youtube</p>
-    <a href="/Video/NoelGamez">Ver Videos</a>
-    <a href="/Persona/Index">Regresar</a>
+    <h1>Jonathan Vazquez</h1>
+    <h2>Mis pasatiempos son</h2>
+    <ul>
+        <li>Jugar League of legends</li>
+        <li>Escuchar Musica</li>     
+    </ul>
+    <a href="/Persona/Index">Regresa a la lista</a>
+    
 </body>
 </html>

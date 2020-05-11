@@ -4,16 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pasatiempos de AndreaEstrada21</title>
+    <title>Pasatiempos de danielamaldonadognz</title>
 </head>
 <body>
     <h1>Mis pasatiempos</h1>
-
-    <h2>Escuchar musica y leer</h2>
-    <p>Me gusta la musica en ingles</p>
-    <p>Me gusta leer libros de ficción</p>
-
-    <a href="/Video/AndreaEstrada21">Ver Videos</a>
+    <h2>Ir al cine</h2>
+    <p>Me gusta ver peliculas en el cine con mi familia y con mi novio</p>
+    
+    <a href="/Video/danielamaldonadognz">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
+
+
 </body>
 </html>

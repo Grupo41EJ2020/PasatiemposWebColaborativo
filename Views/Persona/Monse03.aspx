@@ -4,13 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>NoelGamez</title>
+    <title>Monse03</title>
 </head>
 <body>
-<h1>Mi pasatiempo</h1>
-<h2>Me gusta dormir</h2>
-    <p>Y ver videos en Youtube</p>
-    <a href="/Video/NoelGamez">Ver Videos</a>
+   <h1>Mi pasatiempo</h1>
+<p>Me gusta ver peliculas y serie de romance y drama</p>
+    <a href="/Video/Monse03">Ver videos</a>
+    <br />
     <a href="/Persona/Index">Regresar</a>
 </body>
 </html>
