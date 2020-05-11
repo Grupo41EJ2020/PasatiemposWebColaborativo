@@ -4,16 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-   <title>Pasatiempos de Alancrypto</title>
+    <title>ghs29</title>
 </head>
 <body>
-    <h1>Mis pasatiempos</h1>
-
-    <h2>Escuchar musica </h2>
-    <p>Me gusta jugar videojuegos</p>
-    <p>Me gusta ver netflix </p>
-
-    <a href="/Video/Alancrypto">Ver Videos</a>
-    <a href="/Persona/Index">Regresar a la lista</a>
+    <h1>mis pasatiempos</h1>
+    <h2>me gusta escuchar musica</h2>
+    <h3>me gusta leer ficcion y dramas romanticos</h3>
+    <p>tambien me gusta jugar en linea</p>
+    <a href="/Persona/Index">regresar a la lista</a>
 </body>
 </html>

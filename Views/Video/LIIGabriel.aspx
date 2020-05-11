@@ -15,7 +15,11 @@
             </th>
             <th>
                 Nombre
+
             </th>
+
+            </th>            
+
             
         </tr>
 
@@ -23,17 +27,20 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "Edit", new { id=item.IdVideo  }) %> |
-                <%: Html.ActionLink("Ver detalles", "Details", new {  id=item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "Delete", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Editar", "LIIGabrielEdit", new { id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Ver detalles", "LIIGabrielDetails", new {  id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "LIIGabrielDelete", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
+
             </td>
            
+
+            </td>                        
         </tr>
     
     <% } %>

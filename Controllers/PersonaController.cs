@@ -132,5 +132,32 @@ namespace MVCLaboratorio.Controllers
        {
            return View();
        }
+        public ActionResult DANI1356779()
+       {
+           return View();
+       }
+
+        public ActionResult YaelMendez23()
+        {
+            return View();
+        } 
+
+        public ActionResult Alexibarra999()
+        {
+            return View();
+        }
+        public ActionResult ghs29()
+        {
+            return View();
+        }
+        public ActionResult luiks13()
+        {
+            return View();
+        }
+        public ActionResult JustAlvaro()
+        {
+            return View();
+        }
+
     }
 }

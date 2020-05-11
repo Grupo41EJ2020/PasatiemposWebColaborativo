@@ -16,7 +16,9 @@
         <li>Jugar Videojuegos</li>
         <li>Comer</li>
     </ul>
-
+    <a href="/Video/jahirgranadosV">Ver Videos</a>
+    <br />
+    <br />
     <a href="/Persona/Index">REGRESAR</a>
 </body>
 </html>

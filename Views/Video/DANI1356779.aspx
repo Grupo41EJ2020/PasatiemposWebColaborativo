@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Monse03</title>
+    <title>Lista de videos de: DANI1356779</title>
 </head>
 <body>
     <table>
@@ -28,9 +28,9 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "Monse03Edit", new { id=item.IdVideo }) %> |
-                <%: Html.ActionLink("Detalles", "Monse03Details", new { id=item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "Monse03Delete", new { id=item.IdVideo  })%>
+                <%: Html.ActionLink("Editar", "Editar", new { id=item.IdVideo }) %> |
+                <%: Html.ActionLink("Detalles", "Detalles", new {  id=item.IdVideo  })%> |
+                <%: Html.ActionLink("Borrar", "Borrar", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>
@@ -51,7 +51,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%: Html.ActionLink("Crear nuevo video", "Crear") %>
     </p>
 
 </body>

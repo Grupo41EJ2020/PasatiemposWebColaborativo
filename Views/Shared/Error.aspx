@@ -7,8 +7,7 @@
     <title>Error</title>
 </head>
 <body>
-    <h1>No se puede procesar su solicitud    
+    <h1>No se puede procesar su solicitud
     </h1>
-
 </body>
 </html>

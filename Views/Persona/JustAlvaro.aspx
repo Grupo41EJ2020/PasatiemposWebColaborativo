@@ -4,16 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-   <title>Pasatiempos de Alancrypto</title>
+    <title> Pasatiempos de JustAlvaro</title>
 </head>
 <body>
-    <h1>Mis pasatiempos</h1>
+    <h1>Mis pasatiempos
+    </h1>
+    
+    <h2>Leer
+    </h2>
+    <p>Estoy comenzando a practicar la lectura por iniciativa propia ¿Me pueden recomendar algun buen libro?
+    </p>
 
-    <h2>Escuchar musica </h2>
-    <p>Me gusta jugar videojuegos</p>
-    <p>Me gusta ver netflix </p>
-
-    <a href="/Video/Alancrypto">Ver Videos</a>
+    <a href="/Video/JustAlvaro">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
+
 </body>
 </html>
