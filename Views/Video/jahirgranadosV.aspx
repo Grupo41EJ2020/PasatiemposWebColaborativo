@@ -15,34 +15,22 @@
             </th>
             <th>
                 Nombre
-            </th>
-            <th>
-                Url
-            </th>
-            <th>
-                FechaPublicacion
-            </th>
+            </th>            
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
+                <%: Html.ActionLink("Editar", "jahirgranadosEdit", new { id=item.IdVideo }) %> |
+                <%: Html.ActionLink("Ver Detalles", "jahirgranadosDetails", new { id = item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "jahirgranadosDelete", new { id=item.IdVideo })%>
             </td>
             <td>
                 <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
-            </td>
-            <td>
-                <%: item.Url %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.FechaPublicacion) %>
             </td>
         </tr>
     
