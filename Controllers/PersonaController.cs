@@ -154,6 +154,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult JustAlvaro()
+        {
+            return View();
+        }
 
     }
 }
