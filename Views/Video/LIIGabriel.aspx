@@ -16,12 +16,7 @@
             <th>
                 Nombre
             </th>
-            <th>
-                Url
-            </th>
-            <th>
-                FechaPublicacion
-            </th>
+            
         </tr>
 
     <% foreach (var item in Model) { %>
@@ -38,12 +33,7 @@
             <td>
                 <%: item.Nombre %>
             </td>
-            <td>
-                <%: item.Url %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.FechaPublicacion) %>
-            </td>
+           
         </tr>
     
     <% } %>

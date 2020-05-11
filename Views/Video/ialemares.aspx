@@ -7,8 +7,54 @@
     <title>ialemares</title>
 </head>
 <body>
-    <div>
+    <table>
+        <tr>
+            <th></th>
+            <th>
+                IdVideo
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Url
+            </th>
+            <th>
+                FechaPublicacion
+            </th>
+        </tr>
+
+    <% foreach (var item in Model) { %>
     
-    </div>
+        <tr>
+            <td>
+                <%: Html.ActionLink("Editar", "Edit", new { id=item.IdVideo }) %> |
+                <%: Html.ActionLink("Detalles", "Details", new { id=item.IdVideo })%> |
+                <%: Html.ActionLink("Eliminar", "Delete", new { id=item.IdVideo })%>
+            </td>
+            <td>
+                <%: item.IdVideo %>
+            </td>
+            <td>
+                <%: item.Nombre %>
+            </td>
+            <td>
+                <%: item.Url %>
+            </td>
+            <td>
+                <%: String.Format("{0:g}", item.FechaPublicacion) %>
+            </td>
+        </tr>
+    
+    <% } %>
+
+    </table>
+
+    <p>
+        <%: Html.ActionLink("Crear Nuevo Video", "Create") %>
+    </p>
+    <a href="/Persona/Edalmaj">Regresar</a>
+
 </body>
 </html>
+

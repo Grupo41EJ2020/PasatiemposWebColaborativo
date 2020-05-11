@@ -46,6 +46,7 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
+        
         public ActionResult lesliemorales26()
         {
             //obtener todos los videos
@@ -69,6 +70,33 @@ namespace MVCLaboratorio.Controllers
             }
 
             return View(lstvideos);
+        }
+
+            public ActionResult lesliemorales26Details(int id) {
+            //consultar los datos del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["fechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {
+                //No encontrado
+                return View("Error");
+            }
+
+    }
+
 
         }
         public ActionResult Edalmaj()
@@ -91,6 +119,7 @@ namespace MVCLaboratorio.Controllers
             }
             return View(lstvideos);
         }
+
 
         public ActionResult SantosGuzman01()
         {
