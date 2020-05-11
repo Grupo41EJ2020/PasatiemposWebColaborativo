@@ -248,6 +248,32 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
+        public ActionResult alemaresDetails(int id) {
+            //Consultar los datos del video 
+            List<SqlParameter> Parametros = new List<SqlParameter>();
+            Parametros.Add(new SqlParameter("IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("Sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            { 
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["Fecha Publicacion"].ToString());
+                return View(miVideo);
+            }
+
+            else
+            { //No encontrado 
+                return View("Error");
+            }
+        }
+
+
+
 
         public ActionResult raulantonio177()
         {

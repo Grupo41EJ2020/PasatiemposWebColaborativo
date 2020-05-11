@@ -121,8 +121,10 @@
     <Content Include="Views\Persona\raulantonio177.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
+    <Content Include="Views\Shared\alemaresError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
+    <Content Include="Views\Video\alemaresDetails.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
@@ -131,11 +133,11 @@
     <Content Include="Views\Video\DANI1356779Detalles.aspx" />
     <Content Include="Views\Video\danielamaldonadognz.aspx" />
     <Content Include="Views\Video\danielamaldonadognzDetails.aspx" />
+    <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
-    <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\lesliemorales26Details.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
