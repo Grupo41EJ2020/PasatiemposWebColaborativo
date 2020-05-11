@@ -420,6 +420,45 @@ namespace MVCLaboratorio.Controllers
                 return View("Error");
             }
         }
+        public ActionResult Monse03()
+        {
+
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+            List<Video> Istvideos = new List<Video>();
+
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video datosVideo = new Video();
+                datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                datosVideo.Nombre = item["Nombre"].ToString();
+                datosVideo.Url = item["Url"].ToString();
+                datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+                Istvideos.Add(datosVideo);
+            }
+            return View(Istvideos);
+
+        }
+        public ActionResult Monse03Details(int id)
+        {
+            //consultar los datos del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+            Video miVideo = new Video();
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {
+                return View("ERROR");
+            }
+
+        }
             
         
     }

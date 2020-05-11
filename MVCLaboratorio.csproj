@@ -138,6 +138,7 @@
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
+    <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
