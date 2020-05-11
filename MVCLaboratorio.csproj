@@ -131,6 +131,8 @@
     <Content Include="Views\Video\DANI1356779Detalles.aspx" />
     <Content Include="Views\Video\danielamaldonadognz.aspx" />
     <Content Include="Views\Video\danielamaldonadognzDetails.aspx" />
+    <Content Include="Views\Video\jahirgranadosDetails.aspx" />
+    <Content Include="Views\Video\jahirgranadosV.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
