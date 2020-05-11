@@ -10,6 +10,8 @@
     <h1>Mis pasatiempos</h1>
     <h2>Ir al cine</h2>
     <p>Me gusta ver peliculas en el cine con mi familia y con mi novio</p>
+    
+    <a href="/Video/danielamaldonadognz">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 
 

@@ -460,41 +460,32 @@ namespace MVCLaboratorio.Controllers
 
         }
 
+
         public ActionResult danielamaldonadognz()
         {
-            //obtener todos los videos
+
             DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
-
-            List<Video> lstvideos = new List<Video>();
-
-            //convertir el DataTable en List<Video> 
+            List<Video> Istvideos = new List<Video>();
 
             foreach (DataRow item in dtVideos.Rows)
             {
                 Video datosVideo = new Video();
-
                 datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
                 datosVideo.Nombre = item["Nombre"].ToString();
                 datosVideo.Url = item["Url"].ToString();
                 datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
-
-                lstvideos.Add(datosVideo);
-
+                Istvideos.Add(datosVideo);
             }
+            return View(Istvideos);
 
-            return View(lstvideos);
         }
-
-        public ActionResult danielamaldonadognz(int id)
+        public ActionResult danielamaldonadognzDetails(int id)
         {
             //consultar los datos del video
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
-
             DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
             Video miVideo = new Video();
-
             if (dtVideo.Rows.Count > 0)
             {
                 miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
@@ -504,10 +495,13 @@ namespace MVCLaboratorio.Controllers
                 return View(miVideo);
             }
             else
-            {  //no encontrado 
-                return View("Error");
+            {
+                return View("ERROR");
             }
+
         }
+
+        
             
         
     }
