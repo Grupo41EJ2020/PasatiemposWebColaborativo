@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Lista De video De mauricioTapia</title>
+    <title>JonathanVazquez</title>
 </head>
 <body>
     <table>
@@ -16,21 +16,27 @@
             <th>
                 Nombre
             </th>
+            <th>
+                FechaPublicacion
+            </th>
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "mauricioTapiaEditar", new {  id=item.IdVideo  }) %> |
-                <%: Html.ActionLink("Ver Detalles", "mauricioTapiaDetalles", new {  id=item.IdVideo  })%> |
-                <%: Html.ActionLink("Borrar", "Delete", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Editar", "JonathanVazquezEdit", new { id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Ver detalles", "JonathanVazquezDetails", new {  id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "JonathanVazquezDelete", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
+            </td>
+            <td>
+                <%: String.Format("{0:g}", item.FechaPublicacion) %>
             </td>
         </tr>
     
@@ -39,11 +45,10 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Registrar nuevo", "Create") %>
+        <%: Html.ActionLink("Crear nuevo video", "Create") %>
     </p>
-    <br />
-    <a href="/Home/Index">Regresar a pagina principal</a>
-
+    </br>
+    <a href="/Persona/JonathanVazquez">Regresar a mis Pasatiempos</a>
 </body>
 </html>
 

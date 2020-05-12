@@ -138,6 +138,8 @@
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
+    <Content Include="Views\Video\JonathanVazquez.aspx" />
+    <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
@@ -146,6 +148,7 @@
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
+    <Content Include="Views\Video\mauricioTapiaDetalles.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
