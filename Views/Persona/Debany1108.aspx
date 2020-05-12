@@ -12,6 +12,8 @@
     <h2>Leer</h2>
     <p>Me gusta leer historias en Wattpad</p>
 
+    <a href="/Video/Debany1108">Ver Videos</a>
+    <br />
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
