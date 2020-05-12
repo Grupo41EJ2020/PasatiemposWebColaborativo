@@ -127,6 +127,8 @@
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
+    <Content Include="Views\Video\Alexibarra999.aspx" />
+    <Content Include="Views\Video\Alexibarra999Details.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
