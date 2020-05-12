@@ -145,6 +145,7 @@
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
+    <Content Include="Views\Video\mauricioTapiaDetalles.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />

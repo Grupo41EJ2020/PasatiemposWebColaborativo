@@ -16,20 +16,14 @@
             <th>
                 Nombre
             </th>
-            <th>
-                Url
-            </th>
-            <th>
-                FechaPublicacion
-            </th>
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "Edit", new {  id=item.IdVideo  }) %> |
-                <%: Html.ActionLink("Ver", "Details", new {  id=item.IdVideo  })%> |
+                <%: Html.ActionLink("Editar", "mauricioTapiaEditar", new {  id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Ver Detalles", "mauricioTapiaDetalles", new {  id=item.IdVideo  })%> |
                 <%: Html.ActionLink("Borrar", "Delete", new {  id=item.IdVideo  })%>
             </td>
             <td>
@@ -37,12 +31,6 @@
             </td>
             <td>
                 <%: item.Nombre %>
-            </td>
-            <td>
-                <%: item.Url %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.FechaPublicacion) %>
             </td>
         </tr>
     
