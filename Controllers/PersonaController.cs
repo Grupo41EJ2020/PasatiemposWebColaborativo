@@ -158,6 +158,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult PaolaDuarteLrd()
+        {
+            return View();
+        }
 
     }
 }
