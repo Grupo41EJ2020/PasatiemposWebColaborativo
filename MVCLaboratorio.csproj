@@ -146,17 +146,15 @@
     <Content Include="Views\Video\DANI1356779Detalles.aspx" />
     <Content Include="Views\Video\danielamaldonadognz.aspx" />
     <Content Include="Views\Video\danielamaldonadognzDetails.aspx" />
-<<<<<<< HEAD
     <Content Include="Views\Video\gabriela29%28ghs29%29.aspx" />
     <Content Include="Views\Video\ghs29.aspx" />
-=======
     <Content Include="Views\Video\Debany1108.aspx" />
     <Content Include="Views\Video\Debany1108Details.aspx" />
->>>>>>> 336a1b2b85d386ee8e1641a1c74d32123b112883
     <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
+    <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
