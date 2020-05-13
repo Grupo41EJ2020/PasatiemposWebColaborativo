@@ -462,6 +462,81 @@ namespace MVCLaboratorio.Controllers
             }
         }
 
+        public ActionResult raulantonio177Delete(int id) 
+        {
+            //Accion que solo muestra informacion
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {  //no encontrado 
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult raulantonio177Delete(int id, FormCollection frm)
+        {
+            //Accion que elimina de la bd
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("raulantonio177");
+        }
+
+        public ActionResult raulantonio177Edit(int id)
+        { 
+            //Accion que recupera informacion
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {  //no encontrado 
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult raulantonio177Edit(int id, Video oVideo)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("@Nombre", oVideo.Nombre));
+            parametros.Add(new SqlParameter("@Url", oVideo.Url));
+            parametros.Add(new SqlParameter("@FechaPublicacion", oVideo.FechaPublicacion));
+
+            BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("raulantonio177");         
+        }
+
         public ActionResult mauricioTapia()
         {
             DataTable Datos_Video = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
