@@ -178,7 +178,9 @@
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
+    <Content Include="Views\Video\NoelGamezDelete.aspx" />
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
+    <Content Include="Views\Video\NoelGamezEdit.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
@@ -227,7 +229,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63575</DevelopmentServerPort>
+          <DevelopmentServerPort>55630</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
