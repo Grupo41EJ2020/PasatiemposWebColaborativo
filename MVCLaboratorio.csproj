@@ -138,7 +138,10 @@
     <Content Include="Views\Video\Alexibarra999.aspx" />
     <Content Include="Views\Video\Alexibarra999Details.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
+    <Content Include="Views\Video\AnaKarenLopezCreate.aspx" />
+    <Content Include="Views\Video\AnaKarenLopezDelete.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
+    <Content Include="Views\Video\AnaKarenLopezEdit.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />

@@ -739,12 +739,10 @@ namespace MVCLaboratorio.Controllers
         }
         public ActionResult AnaKarenLopez()
         {
-            //obtener todos los videos
+            
             DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
 
             List<Video> lstvideos = new List<Video>();
-
-            //convertir el DataTable en List<Video> 
 
             foreach (DataRow item in dtVideos.Rows)
             {
@@ -785,6 +783,95 @@ namespace MVCLaboratorio.Controllers
                 return View("Error");
             }
         }
+
+        public ActionResult AnaKarenLopezDelete(int id)
+        {
+            //Obtendremos la info del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {
+                return View("Error");
+            }
+        }
+        [HttpPost]
+        public ActionResult AnaKarenLopezDelete(int id, FormCollection frm)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("AnaKarenLopez");
+        }
+
+        public ActionResult AnaKarenLopezEdit(int id)        
+        { 
+            //obtener la informacion del video para llenar las cajas con los datos
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            {
+                return View("Error");
+            }
+        }
+        [HttpPost]
+        public ActionResult AnaKarenLopezEdit(int id, Video datos)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("@Nombre", datos.Nombre));
+            parametros.Add(new SqlParameter("@Url", datos.Url));
+            parametros.Add(new SqlParameter("@FechaPublicacion", datos.FechaPublicacion));
+            
+            BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("AnaKarenLopez");
+            
+        }
+
+        public ActionResult AnaKarenLopezCreate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AnaKarenLopezCreate(string Nombre, string Url, DateTime FechaPublicacion)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@Nombre", Nombre));
+            parametros.Add(new SqlParameter("@Url", Url));
+            parametros.Add(new SqlParameter("@FechaPublicacion", FechaPublicacion));
+
+            BaseHelper.ejecutarSentencia("sp_Video_Insertar", CommandType.StoredProcedure, parametros);
+
+            return RedirectToAction("AnaKarenLopez");
+        }
+
         public ActionResult Monse03()
         {
 
