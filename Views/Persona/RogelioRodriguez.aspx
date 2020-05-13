@@ -12,6 +12,7 @@
     <h2>Me gusta escuchar musica</h2>
     <p>Me gusta el Jazz, Blues, Rock e Indie</p>
 
+    <a href="/Video/RogelioRodriguez">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>

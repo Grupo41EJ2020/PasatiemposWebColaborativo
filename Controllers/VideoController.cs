@@ -1221,6 +1221,52 @@ namespace MVCLaboratorio.Controllers
                     return View("Error");
                 }
             }
+            public ActionResult RogelioRodriguez()
+            {
+                //obtener todos los videos
+                DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+
+                List<Video> lstvideos = new List<Video>();
+
+                //convertir el DataTable en List<Video> 
+
+                foreach (DataRow item in dtVideos.Rows)
+                {
+                    Video datosVideo = new Video();
+
+                    datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                    datosVideo.Nombre = item["Nombre"].ToString();
+                    datosVideo.Url = item["Url"].ToString();
+                    datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                    lstvideos.Add(datosVideo);
+
+                }
+                return View(lstvideos);
+            }
+            public ActionResult RogelioRodriguezDetails(int id)
+            {
+
+                List<SqlParameter> parametros = new List<SqlParameter>();
+                parametros.Add(new SqlParameter("@IdVideo", id));
+
+                DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorId", CommandType.StoredProcedure, parametros);
+
+                Video miVideo = new Video();
+
+                if (dtVideo.Rows.Count > 0)
+                {
+                    miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                    miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                    miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                    miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                    return View(miVideo);
+                }
+                else
+                {
+                    return View("Error");
+                }
+            }
         }
     }
 
