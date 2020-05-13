@@ -22,21 +22,15 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "Edit", new { id=item.IdVideo}) %> |
-                <%: Html.ActionLink("Detalles", "Details", new { id=item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "Delete", new { id=item.IdVideo })%>
+                <%: Html.ActionLink("Editar", "Alexibarra99Edit", new { id=item.IdVideo}) %> |
+                <%: Html.ActionLink("Detalles", "Alexibarra999Details", new { id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "Alexibarra999Delete", new { id=item.IdVideo })%>
             </td>
             <td>
                 <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
-            </td>
-            <td>
-                <%: item.Url %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.FechaPublicacion) %>
             </td>
         </tr>
     

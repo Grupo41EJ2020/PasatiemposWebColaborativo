@@ -18,14 +18,14 @@
 
             </th>
 
-            </th>            
+                        
 
             
         </tr>
 
     <% foreach (var item in Model) { %>
     
-        <tr>
+        <td>
             <td>
                 <%: Html.ActionLink("Editar", "LIIGabrielEdit", new { id=item.IdVideo  }) %> |
                 <%: Html.ActionLink("Ver detalles", "LIIGabrielDetails", new {  id=item.IdVideo })%> |
@@ -38,8 +38,6 @@
                 <%: item.Nombre %>
 
             </td>
-           
-
             </td>                        
         </tr>
     

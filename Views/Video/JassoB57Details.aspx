@@ -8,7 +8,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Detalles</legend>
+        <legend>Detalles del Video</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
@@ -24,8 +24,8 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Editar", "Alexibarra999Edit", new { id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar a la tabla ", "Alexibarra999") %>
+        <%: Html.ActionLink("Editar", "JassoB5tEdit", new { id = Model.IdVideo })%> |
+        <%: Html.ActionLink("Regresar a la tabla", "JassoB57") %>
     </p>
 
 </body>

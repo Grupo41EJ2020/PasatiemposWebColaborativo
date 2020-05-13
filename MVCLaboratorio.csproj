@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -106,7 +106,6 @@
     <Content Include="Views\Persona\Debany1108.aspx" />
     <Content Include="Views\Persona\DanArzolaga.aspx" />
     <Content Include="Views\Persona\Edalmaj.aspx" />
-    <Content Include="Views\Persona\ghs29.aspx" />
     <Content Include="Views\Persona\ialemares.aspx" />
     <Content Include="Views\Persona\Index.aspx" />
     <Content Include="Views\Persona\JassoB57.aspx" />
@@ -129,6 +128,7 @@
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
     <Content Include="Views\Shared\Ashbatis30Error.aspx" />
+    <Content Include="Views\Shared\AndreaEstrada21Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
@@ -138,6 +138,7 @@
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
+    <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
     <Content Include="Views\Video\DanArzolaga.aspx" />
@@ -149,12 +150,15 @@
     <Content Include="Views\Video\DANI1356779Detalles.aspx" />
     <Content Include="Views\Video\danielamaldonadognz.aspx" />
     <Content Include="Views\Video\danielamaldonadognzDetails.aspx" />
+    <Content Include="Views\Video\gabriela29%28ghs29%29.aspx" />
+    <Content Include="Views\Video\ghs29.aspx" />
     <Content Include="Views\Video\Debany1108.aspx" />
     <Content Include="Views\Video\Debany1108Details.aspx" />
     <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
+    <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
