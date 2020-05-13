@@ -128,6 +128,7 @@
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
+    <Content Include="Views\Shared\Ashbatis30Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
@@ -138,6 +139,7 @@
     <Content Include="Views\Video\AnaKarenLopezDetails.aspx" />
     <Content Include="Views\Video\AndreaEstrada21.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
+    <Content Include="Views\Video\Ashbatis30Details.aspx" />
     <Content Include="Views\Video\DanArzolaga.aspx" />
     <Content Include="Views\Video\DanArzolagaCreate.aspx" />
     <Content Include="Views\Video\DanArzolagaDelete.aspx" />
