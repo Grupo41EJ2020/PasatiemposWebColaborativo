@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>EdalmajDetails</title>
+    <title>EdalmajDelete</title>
     <style type="text/css">
         body
         {
@@ -13,8 +13,9 @@
     </style>
 </head>
 <body>
+    <h3>¿Seguro que quieres eliminar este video?</h3>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
@@ -29,10 +30,12 @@
         <div class="display-field"><%: String.Format("{0:g}", Model.FechaPublicacion) %></div>
         
     </fieldset>
-    <p>
-        <%: Html.ActionLink("Editar", "EdalmajEdit", new {id=Model.IdVideo}) %> |
-        <%: Html.ActionLink("Regresar a la lista", "Edalmaj") %>
-    </p>
+    <% using (Html.BeginForm()) { %>
+        <p>
+		    <input type="submit" value="Eliminar" /> |
+		    <%: Html.ActionLink("Regresar", "Edalmaj") %>
+        </p>
+    <% } %>
 
 </body>
 </html>
