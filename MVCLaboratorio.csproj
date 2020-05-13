@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -127,6 +127,7 @@
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
+    <Content Include="Views\Shared\Ashbatis30Error.aspx" />
     <Content Include="Views\Shared\AndreaEstrada21Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
@@ -140,6 +141,7 @@
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\Andreagpp.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
+    <Content Include="Views\Video\Ashbatis30Details.aspx" />
     <Content Include="Views\Video\DanArzolaga.aspx" />
     <Content Include="Views\Video\DanArzolagaCreate.aspx" />
     <Content Include="Views\Video\DanArzolagaDelete.aspx" />
