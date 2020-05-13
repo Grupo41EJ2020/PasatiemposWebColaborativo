@@ -143,6 +143,7 @@
     <Content Include="Views\Video\AndreaEstrada21Delete.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Edit.aspx" />
+    <Content Include="Views\Video\Andreagpp.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
     <Content Include="Views\Video\DanArzolaga.aspx" />
@@ -179,7 +180,9 @@
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\Monse03Details.aspx" />
     <Content Include="Views\Video\NoelGamez.aspx" />
+    <Content Include="Views\Video\NoelGamezDelete.aspx" />
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
+    <Content Include="Views\Video\NoelGamezEdit.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
@@ -229,6 +232,7 @@
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52746</DevelopmentServerPort>
+          <DevelopmentServerPort>55630</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
