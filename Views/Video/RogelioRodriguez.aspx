@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<MVCLaboratorio.Models.Video>>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>PriscilaCtz</title>
+    <title>Lista de Videos de: RogelioRodriguez</title>
 </head>
 <body>
     <table>
@@ -16,22 +16,23 @@
             <th>
                 Nombre
             </th>
+            
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "PriscilaCtzEdit", new { id = item.IdVideo })%> |
-                <%: Html.ActionLink("Ver detalles", "PriscilaCtzDetails", new { id = item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "PriscilaCtzDelete", new { id = item.IdVideo })%>
+                <%: Html.ActionLink("Editar", "RogelioRodriguezEdit", new {  id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Ver detalles", "RogelioRodriguezDetails", new {  id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "RogelioRodriguezDelete", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
-            </td>
+            </td>                      
         </tr>
     
     <% } %>
@@ -44,3 +45,4 @@
 
 </body>
 </html>
+

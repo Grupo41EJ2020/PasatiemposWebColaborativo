@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Video>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Detalles del video: </title>
+    <title>PriscilaCtzDetails</title>
 </head>
 <body>
     <fieldset>
@@ -24,10 +24,8 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Editar", "AndreaEstrada21Edit", new { id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar a la tabla", "AndreaEstrada21") %>
+        <%: Html.ActionLink("Editar", "PriscilaCtzEdit", new { id=Model.IdVideo }) %> |
+        <%: Html.ActionLink("Regresar a la tabla", "PriscilaCtz") %>
     </p>
-
 </body>
 </html>
-

@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Detalles del video: </title>
+    <title>Detalles del video</title>
 </head>
 <body>
     <fieldset>
@@ -24,8 +24,8 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Editar", "AndreaEstrada21Edit", new { id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar a la tabla", "AndreaEstrada21") %>
+        <%: Html.ActionLink("Editar", "RogelioRodriguezEdit", new {  id=Model.IdVideo  }) %> |
+        <%: Html.ActionLink("Regresar a la tabla", "RogelioRodriguez") %>
     </p>
 
 </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -124,6 +124,7 @@
     <Content Include="Views\Persona\NoelGamez.aspx" />
     <Content Include="Views\Persona\PriscilaCtz.aspx" />
     <Content Include="Views\Persona\raulantonio177.aspx" />
+    <Content Include="Views\Persona\RogelioRodriguez.aspx" />
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
@@ -132,6 +133,7 @@
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
+    <Content Include="Views\Video\AlancryptoDetails.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
     <Content Include="Views\Video\Alexibarra999.aspx" />
     <Content Include="Views\Video\Alexibarra999Details.aspx" />
@@ -167,7 +169,9 @@
     <Content Include="Views\Video\Edalmaj.aspx" />
     <Content Include="Views\Video\lesliemorales26Details.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
+    <Content Include="Views\Video\LIIGabrielDelete.aspx" />
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
+    <Content Include="Views\Video\LIIGabrielEdit.aspx" />
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
     <Content Include="Views\Video\mauricioTapiaDetalles.aspx" />
@@ -176,9 +180,12 @@
     <Content Include="Views\Video\NoelGamez.aspx" />
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
+    <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
     <Content Include="Views\Video\Quique07DsDetails.aspx" />
     <Content Include="Views\Video\raulantonio177Detalles.aspx" />
+    <Content Include="Views\Video\RogelioRodriguez.aspx" />
+    <Content Include="Views\Video\RogelioRodriguezDetails.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
     <Content Include="Views\Video\raulantonio177.aspx" />
     <Content Include="Views\Video\SantosGuzman01Details.aspx" />

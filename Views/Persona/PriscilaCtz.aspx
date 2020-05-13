@@ -12,6 +12,7 @@
         <h2>  Me gusta leer </h2>
         <p> Me gustan los libros de misterio</p>
 
+        <a href="/Video/PriscilaCtz">Ver videos</a><br /> 
         <a href="/Persona/Index">Regresar a la lista</a>
     </div>
 </body>

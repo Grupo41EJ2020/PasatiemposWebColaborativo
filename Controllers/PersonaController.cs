@@ -170,5 +170,10 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult RogelioRodriguez()
+        {
+            return View();
+        }
+
     }
 }
