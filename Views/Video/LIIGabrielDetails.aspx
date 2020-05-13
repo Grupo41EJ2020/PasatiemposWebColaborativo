@@ -8,7 +8,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Detalles del video</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>

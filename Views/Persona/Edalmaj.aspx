@@ -6,6 +6,31 @@
 <head runat="server">
     <title>Edalmaj</title>
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <style>
+        body 
+        {
+            background-color:#191919;
+            padding-left:10%;
+            padding-right:10%;
+        }
+
+        h1
+        {
+            font-size:50px;
+        }
+
+        h1, h2, ul
+        {
+            font-family:Arial;
+            color:#F9F9F9;
+        }
+
+        a 
+        {
+            font-family:Arial;
+            color:White;
+        }
+    </style>
 </head>
 <body>
     <h1>Pasatiempos de Edalmaj</h1>

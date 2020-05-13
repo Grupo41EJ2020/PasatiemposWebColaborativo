@@ -12,6 +12,7 @@
     <h2>Ver videos</h2>
     <p>Me gusta ver videos de Maquillaje</p>
 
+    <a href="/Video/Andreagpp">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>

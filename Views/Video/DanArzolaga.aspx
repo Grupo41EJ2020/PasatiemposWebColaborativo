@@ -86,7 +86,7 @@
 &nbsp;
         
      
-     <span class="style17"><span class="style18"><span class="style19">&nbsp;<%: Html.ActionLink("Agregar Video", "Create") %></span></span></span>
+     <span class="style17"><span class="style18"><span class="style19">&nbsp;<%: Html.ActionLink("Agregar Video", "DanArzolagaCreate") %></span></span></span>
     <table style="font-family: lazer84; font-size: medium; color: #FFFF00; border-style: groove; border-color: #C0C0C0; font-weight: normal; border-collapse: separate; border-spacing: inherit;" 
         title="Videos">
         <tr>
@@ -109,9 +109,9 @@
     
         <tr>
             <td class="style3">
-                <%: Html.ActionLink("Editar", "Edit", new { id=item.IdVideo }) %> |
-                <%: Html.ActionLink("Detalle", "Details", new { id=item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "Delete", new { id=item.IdVideo })%>
+                <%: Html.ActionLink("Editar", "DanArzolagaEdit", new { id=item.IdVideo }) %> |
+                <%: Html.ActionLink("Detalle", "DanArzolagaDetails", new { id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "DanArzolagaDelete", new { id=item.IdVideo })%>
             </td>
             <td style="font-family: Consolas; font-weight: bold; color: #FFFFFF" 
                 class="style6">

@@ -159,5 +159,21 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult aylinzc()
+        {
+            return View();
+        }
+
+        public ActionResult PaolaDuarteLrd()
+
+        {
+            return View();
+        }
+
+        public ActionResult RogelioRodriguez()
+        {
+            return View();
+        }
+
     }
 }

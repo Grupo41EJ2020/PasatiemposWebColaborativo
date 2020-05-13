@@ -7,10 +7,11 @@
     <title>ghs29</title>
 </head>
 <body>
-    <h1>mis pasatiempos</h1>
-    <h2>me gusta escuchar musica</h2>
-    <h3>me gusta leer ficcion y dramas romanticos</h3>
-    <p>tambien me gusta jugar en linea</p>
-    <a href="/Persona/Index">regresar a la lista</a>
+   <h1>Mis pasatiempos</h1>
+   <h2>me gusta escuchar música todo el tiempo</h2>
+   <h3>me gusta jugar en linea y leer</h3>
+   <p>mas si es de ficcion o dramas romanticos</p>
+   <a href="/Video/ghs29">Ver video</a>
+   <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>
