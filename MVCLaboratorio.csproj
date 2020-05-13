@@ -177,6 +177,7 @@
     <Content Include="Views\Video\NoelGamez.aspx" />
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
+    <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
     <Content Include="Views\Video\Quique07DsDetails.aspx" />
     <Content Include="Views\Video\raulantonio177Detalles.aspx" />
