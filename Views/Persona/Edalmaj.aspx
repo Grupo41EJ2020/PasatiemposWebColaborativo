@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Edalmaj</title>
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-    <style>
+    <style type="text/css">
         body 
         {
             background-color:#191919;
@@ -40,7 +40,7 @@
         <li>Escuchar Música</li>
         <li>Jugar LoL</li>
     </ul>
-    <h2>Canción Favorita</h3>
+    <h2>Canción Favorita</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/u6lihZAcy4s"
      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
      picture-in-picture" allowfullscreen></iframe>
