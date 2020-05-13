@@ -197,7 +197,9 @@
     <Content Include="Views\Video\RogelioRodriguezDetails.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
     <Content Include="Views\Video\raulantonio177.aspx" />
+    <Content Include="Views\Video\SantosGuzman01Delete.aspx" />
     <Content Include="Views\Video\SantosGuzman01Details.aspx" />
+    <Content Include="Views\Video\SantosGuzman01Edit.aspx" />
     <Content Include="Views\Video\YaelMendez23.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
