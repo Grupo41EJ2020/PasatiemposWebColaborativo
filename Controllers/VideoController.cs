@@ -1127,5 +1127,32 @@ namespace MVCLaboratorio.Controllers
                 }
             }
 
+
+
+             public ActionResult Andreagpp()
+                 {
+                   //Obtener todos los videos
+                    DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+                   
+                   List<Video> lstvideos = new List<Video>();
+
+                   //Convertir el DataTable en List<Video>
+                    foreach (DataRow item in dtVideo.Rows)
+	                {
+		                Video datosVideo = new Video();
+
+                        datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                        datosVideo.Nombre = item["Nombre"].ToString();
+                        datosVideo.Url = item["Url"].ToString();
+                        datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                        lstvideos.Add(datosVideo);
+                     
+	}
+                    return View(lstvideos);
+                 }
+
+            }
+
         }
-    }
+   
