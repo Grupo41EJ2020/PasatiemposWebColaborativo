@@ -4,14 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pasatiempos de JAOG2000</title>
+    <title>Error</title>
 </head>
 <body>
-    <h1>Mis Pasatiempos</h1>
-    <h2>Me gusta leer libros de negocios y jugar videojuegos</h2>
-    <p>Ademas de hacer ejercisio y entrenar natacion</p>
-
-    <a href="/Video/JAOG2000">Ver Videos</a>
-    <a href="/Persona/Index">Regresar a la lista</a>
+    <h1>No se puede procesar su solicitud</h1>
 </body>
 </html>

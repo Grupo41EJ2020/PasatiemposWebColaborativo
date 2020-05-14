@@ -132,6 +132,7 @@
     <Content Include="Views\Shared\AndreaEstrada21Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\JAOG2000Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
@@ -170,6 +171,10 @@
     <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
+    <Content Include="Views\Video\JAOG2000.aspx" />
+    <Content Include="Views\Video\JAOG2000Delete.aspx" />
+    <Content Include="Views\Video\JAOG2000Details.aspx" />
+    <Content Include="Views\Video\JAOG2000Edit.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
     <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
