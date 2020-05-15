@@ -214,7 +214,9 @@
     <Content Include="Views\Video\raulantonio177Detalles.aspx" />
     <Content Include="Views\Video\raulantonio177Edit.aspx" />
     <Content Include="Views\Video\RogelioRodriguez.aspx" />
+    <Content Include="Views\Video\RogelioRodriguezDelete.aspx" />
     <Content Include="Views\Video\RogelioRodriguezDetails.aspx" />
+    <Content Include="Views\Video\RogelioRodriguezEdit.aspx" />
     <Content Include="Views\Video\SantosGuzman01.aspx" />
     <Content Include="Views\Video\raulantonio177.aspx" />
     <Content Include="Views\Video\SantosGuzman01Delete.aspx" />
