@@ -10,7 +10,7 @@
     <h1>Mis pasatiempos</h1>
     <h2>me gusta ver series y peliculas</h2>
     <p>En especial si son de misterio y suspenso</p>
-    <a href="/Video/Alexibarra999">Ver video</a>
+    <a href="/Video/Alexibarra999">Ver videos</a>
     <a href="/Persona/Index">Regresar a la lista</a>
 </body>
 </html>

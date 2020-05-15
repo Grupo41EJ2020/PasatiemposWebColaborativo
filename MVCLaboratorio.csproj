@@ -137,7 +137,9 @@
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
     <Content Include="Views\Video\Alexibarra999.aspx" />
+    <Content Include="Views\Video\Alexibarra999Delete.aspx" />
     <Content Include="Views\Video\Alexibarra999Details.aspx" />
+    <Content Include="Views\Video\Alexibarra999Edit.aspx" />
     <Content Include="Views\Video\AnaKarenLopez.aspx" />
     <Content Include="Views\Video\AnaKarenLopezCreate.aspx" />
     <Content Include="Views\Video\AnaKarenLopezDelete.aspx" />
