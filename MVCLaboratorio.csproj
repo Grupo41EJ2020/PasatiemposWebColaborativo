@@ -163,6 +163,8 @@
     <Content Include="Views\Video\DANI1356779Editar.aspx" />
     <Content Include="Views\Video\danielamaldonadognz.aspx" />
     <Content Include="Views\Video\danielamaldonadognzDetails.aspx" />
+    <Content Include="Views\Video\Debany1108Delete.aspx" />
+    <Content Include="Views\Video\Debany1108Edit.aspx" />
     <Content Include="Views\Video\EdalmajDelete.aspx" />
     <Content Include="Views\Video\EdalmajDetails.aspx" />
     <Content Include="Views\Video\EdalmajEdit.aspx" />
