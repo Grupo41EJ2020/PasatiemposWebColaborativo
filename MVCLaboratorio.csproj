@@ -191,7 +191,9 @@
     <Content Include="Views\Video\LIIGabrielEdit.aspx" />
     <Content Include="Views\Video\luiks13.aspx" />
     <Content Include="Views\Video\mauricioTapia.aspx" />
+    <Content Include="Views\Video\mauricioTapiaBorrar.aspx" />
     <Content Include="Views\Video\mauricioTapiaDetalles.aspx" />
+    <Content Include="Views\Video\mauricioTapiaEditar.aspx" />
     <Content Include="Views\Video\Monse03.aspx" />
     <Content Include="Views\Video\Monse03Delete.aspx" />
     <Content Include="Views\Video\Monse03Details.aspx" />
@@ -201,7 +203,9 @@
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
     <Content Include="Views\Video\NoelGamezEdit.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
+    <Content Include="Views\Video\PriscilaCtzDelete.aspx" />
     <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
+    <Content Include="Views\Video\PriscilaCtzEdit.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
     <Content Include="Views\Video\Quique07DsDelete.aspx" />
     <Content Include="Views\Video\Quique07DsDetails.aspx" />
@@ -254,7 +258,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55630</DevelopmentServerPort>
+          <DevelopmentServerPort>50853</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
