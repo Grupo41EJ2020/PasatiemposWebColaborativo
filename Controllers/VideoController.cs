@@ -2076,6 +2076,41 @@ namespace MVCLaboratorio.Controllers
                 }
                 return View(lstvideos);
             }
+            public ActionResult PriscilaCtzEdit(int id)
+            {
+                List<SqlParameter> parametros = new List<SqlParameter>();
+                parametros.Add(new SqlParameter("@IdVideo", id));
+
+                DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+                Video miVideo = new Video();
+
+                if (dtVideo.Rows.Count > 0)
+                {
+                    miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                    miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                    miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                    miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                    return View(miVideo);
+                }
+                else
+                {
+                    return View("Error");
+                }
+            }
+            [HttpPost]
+            public ActionResult PriscilaCtzEdit(int id, Video datos)
+            {
+                //realizar el update
+                List<SqlParameter> parametros = new List<SqlParameter>();
+                parametros.Add(new SqlParameter("@IdVideo", id));
+                parametros.Add(new SqlParameter("@Nombre", datos.Nombre));
+                parametros.Add(new SqlParameter("@Url", datos.Url));
+                parametros.Add(new SqlParameter("@FechaPublicacion", datos.FechaPublicacion));
+
+                BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
+                return RedirectToAction("PriscilaCtz");
+            }
             public ActionResult RogelioRodriguezDetails(int id)
             {
 

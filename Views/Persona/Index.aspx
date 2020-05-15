@@ -39,8 +39,6 @@
     <a href="/Persona/Debany1108">Debany1108</a>
 	<br /> 
      
-      <a href="/Persona/PriscilaCtz">PriscilaCtz</a>
-    <br />
     <a href="/Persona/NoelGamez">NoelGamez</a>
     <br />  
 

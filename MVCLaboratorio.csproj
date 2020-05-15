@@ -203,6 +203,7 @@
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\PriscilaCtzDelete.aspx" />
     <Content Include="Views\Video\PriscilaCtzDetails.aspx" />
+    <Content Include="Views\Video\PriscilaCtzEdit.aspx" />
     <Content Include="Views\Video\Quique07Ds.aspx" />
     <Content Include="Views\Video\Quique07DsDelete.aspx" />
     <Content Include="Views\Video\Quique07DsDetails.aspx" />
