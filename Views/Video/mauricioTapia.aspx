@@ -24,7 +24,7 @@
             <td>
                 <%: Html.ActionLink("Editar", "mauricioTapiaEditar", new {  id=item.IdVideo  }) %> |
                 <%: Html.ActionLink("Ver Detalles", "mauricioTapiaDetalles", new {  id=item.IdVideo  })%> |
-                <%: Html.ActionLink("Borrar", "Delete", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Borrar", "mauricioTapiaBorrar", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>
