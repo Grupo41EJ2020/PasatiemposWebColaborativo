@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<MVCLaboratorio.Models.Video>>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -7,11 +7,47 @@
     <title>ghs29</title>
 </head>
 <body>
-   <h1>Mis pasatiempos</h1>
-   <h2>me gusta escuchar música todo el tiempo</h2>
-   <h3>me gusta jugar en linea y leer</h3>
-   <p>mas si es de ficcion o dramas romanticos</p>
-   <a href="/Video/ghs29">Ver video</a>
-   <a href="/Persona/Index">Regresar a la lista</a>
+    <table>
+        <tr>
+            <th></th>
+            <th>
+                IdVideo
+            </th>
+            <th>
+                Nombre
+            </th>
+        </tr>
+
+    <% foreach (var item in Model) { %>
+    
+        <tr>
+            <td>
+                <%: Html.ActionLink("Editar", "ghs29Editar", new {  id=item.IdVideo })%> |
+                <%: Html.ActionLink("Detalles del video", "ghs29Detalles", new { id=item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "ghs29Borrar", new {  id=item.IdVideo  })%>
+            </td>
+            <td>
+                <%: item.IdVideo %>
+            </td>
+            <td>
+                <%: item.Nombre %>
+            </td>
+            <td>
+                <%: item.Url %>
+            </td>
+            <td>
+                <%: String.Format("{0:g}", item.FechaPublicacion) %>
+            </td>
+        </tr>
+    
+    <% } %>
+
+    </table>
+
+    <p>
+        <%: Html.ActionLink("Registrar nuevo", "Create") %>
+    </p>
+
 </body>
 </html>
+

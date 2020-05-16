@@ -1801,10 +1801,10 @@ namespace MVCLaboratorio.Controllers
             {
                 Video dVideo = new Video();
 
-                dVideo.IdVideo = int.Parse(video["idvideo"].ToString());
-                dVideo.Nombre = video["nombre"].ToString();
-                dVideo.Url = video["url"].ToString();
-                dVideo.FechaPublicacion = DateTime.Parse(video["fechapubli"].ToString());
+                dVideo.IdVideo = int.Parse(video["IdVideo"].ToString());
+                dVideo.Nombre = video["Nombre"].ToString();
+                dVideo.Url = video["Url"].ToString();
+                dVideo.FechaPublicacion = DateTime.Parse(video["FechaPublicacion"].ToString());
 
                 listaVideo.Add(dVideo);
             }
@@ -1812,26 +1812,24 @@ namespace MVCLaboratorio.Controllers
 
         }
 
-        public ActionResult ghs29(int id)
+        public ActionResult ghs29Detalles(int id)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
-            DataTable dtVideo = BaseHelper.ejecutarConsulta("SP_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
-            Video miVideo = new Video();
-
+            Video MiVideo = new Video();
             if (dtVideo.Rows.Count > 0)
             {
-                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-                return View(miVideo);
+                MiVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                MiVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                MiVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                MiVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(MiVideo);
             }
             else
             {
-                return View("Error");
+                return View("ERROR");
             }
         }
 
