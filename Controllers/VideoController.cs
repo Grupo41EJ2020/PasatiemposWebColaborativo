@@ -732,7 +732,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult mauricioTapiaDetalles(int id)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("IdVideo", id));
             DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
             Video MiVideo = new Video();
@@ -752,7 +752,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult mauricioTapiaBorrar(int id)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("IdVideo", id));
             DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
             Video MiVideo = new Video();
@@ -773,7 +773,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult mauricioTapiaBorrar(int id, FormCollection frm)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("IdVideo", id));
 
             BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
             return RedirectToAction("mauricioTapia");
@@ -781,7 +781,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult mauricioTapiaEditar(int id)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
+            parametros.Add(new SqlParameter("IdVideo", id));
             DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
             Video MiVideo = new Video();
@@ -1831,6 +1831,67 @@ namespace MVCLaboratorio.Controllers
             {
                 return View("ERROR");
             }
+        }
+        public ActionResult ghs29Borrar(int id)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video MiVideo = new Video();
+            if (dtVideo.Rows.Count > 0)
+            {
+                MiVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                MiVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                MiVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                MiVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(MiVideo);
+            }
+            else
+            {
+                return View("ERROR");
+            }
+        }
+        [HttpPost]
+        public ActionResult ghs29borrar(int id, FormCollection frm)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("IdVideo", id));
+
+            BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("ghs29");
+        }
+        public ActionResult ghs29Editar(int id)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("IdVideo", id));
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video MiVideo = new Video();
+            if (dtVideo.Rows.Count > 0)
+            {
+                MiVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                MiVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                MiVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                MiVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(MiVideo);
+            }
+            else
+            {
+                return View("ERROR");
+            }
+        }
+        [HttpPost]
+        public ActionResult ghs29Editar(int id, Video datos_video)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("IdVideo", id));
+            parametros.Add(new SqlParameter("Nombre", datos_video.Nombre));
+            parametros.Add(new SqlParameter("Url", datos_video.Url));
+            parametros.Add(new SqlParameter("FechaPublicacion", datos_video.FechaPublicacion));
+
+            BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
+            return View();
         }
 
         public ActionResult Alexibarra999()

@@ -170,10 +170,11 @@
     <Content Include="Views\Video\EdalmajDelete.aspx" />
     <Content Include="Views\Video\EdalmajDetails.aspx" />
     <Content Include="Views\Video\EdalmajEdit.aspx" />
-    <Content Include="Views\Video\gabriela29%28ghs29%29.aspx" />
     <Content Include="Views\Video\ghs29.aspx" />
     <Content Include="Views\Video\Debany1108.aspx" />
     <Content Include="Views\Video\Debany1108Details.aspx" />
+    <Content Include="Views\Video\ghs29Borrar.aspx" />
+    <Content Include="Views\Video\ghs29Editar.aspx" />
     <Content Include="Views\Video\ialemares.aspx" />
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
