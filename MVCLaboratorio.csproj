@@ -191,7 +191,9 @@
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
+    <Content Include="Views\Video\lesliemorales26Delete.aspx" />
     <Content Include="Views\Video\lesliemorales26Details.aspx" />
+    <Content Include="Views\Video\lesliemorales26Edit.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
     <Content Include="Views\Video\LIIGabrielDelete.aspx" />
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
