@@ -137,7 +137,9 @@
     <Content Include="Views\Video\AlancryptoDelete.aspx" />
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
     <Content Include="Views\Video\AlancryptoEdit.aspx" />
+    <Content Include="Views\Video\alemaresDelete.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
+    <Content Include="Views\Video\alemaresEdit.aspx" />
     <Content Include="Views\Video\Alexibarra999.aspx" />
     <Content Include="Views\Video\Alexibarra999Delete.aspx" />
     <Content Include="Views\Video\Alexibarra999Details.aspx" />
@@ -153,7 +155,9 @@
     <Content Include="Views\Video\AndreaEstrada21Edit.aspx" />
     <Content Include="Views\Video\Andreagpp.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
+    <Content Include="Views\Video\Ashbatis30Delete.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
+    <Content Include="Views\Video\Ashbatis30Edit.aspx" />
     <Content Include="Views\Video\DanArzolaga.aspx" />
     <Content Include="Views\Video\DanArzolagaCreate.aspx" />
     <Content Include="Views\Video\DanArzolagaDelete.aspx" />
@@ -189,7 +193,9 @@
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
+    <Content Include="Views\Video\lesliemorales26Delete.aspx" />
     <Content Include="Views\Video\lesliemorales26Details.aspx" />
+    <Content Include="Views\Video\lesliemorales26Edit.aspx" />
     <Content Include="Views\Video\LIIGabriel.aspx" />
     <Content Include="Views\Video\LIIGabrielDelete.aspx" />
     <Content Include="Views\Video\LIIGabrielDetails.aspx" />
