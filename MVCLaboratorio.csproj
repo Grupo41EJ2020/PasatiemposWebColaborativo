@@ -195,7 +195,9 @@
     <Content Include="Views\Video\JAOG2000Details.aspx" />
     <Content Include="Views\Video\JAOG2000Edit.aspx" />
     <Content Include="Views\Video\JassoB57.aspx" />
+    <Content Include="Views\Video\JassoB57Delete.aspx" />
     <Content Include="Views\Video\JassoB57Details.aspx" />
+    <Content Include="Views\Video\JassoB57Edit.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JonathanVBDelete.aspx" />
