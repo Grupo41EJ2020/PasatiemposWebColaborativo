@@ -175,5 +175,10 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult Isaac()
+        {
+            return View();
+        }
+
     }
 }
