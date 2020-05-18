@@ -197,7 +197,9 @@
     <Content Include="Views\Video\JonathanVBDelete.aspx" />
     <Content Include="Views\Video\JonathanVBEdit.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
+    <Content Include="Views\Video\JustAlvaroDelete.aspx" />
     <Content Include="Views\Video\JustAlvaroDetails.aspx" />
+    <Content Include="Views\Video\JustAlvaroEdit.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
     <Content Include="Views\Video\lesliemorales26Delete.aspx" />
