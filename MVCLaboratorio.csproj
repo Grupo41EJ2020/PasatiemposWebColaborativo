@@ -72,6 +72,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\IVideo.cs" />
+    <Compile Include="Models\RepositorioVideo.cs" />
     <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
