@@ -128,6 +128,7 @@
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
+    <Content Include="Views\Shared\AndreagppError.aspx" />
     <Content Include="Views\Shared\Ashbatis30Error.aspx" />
     <Content Include="Views\Shared\AndreaEstrada21Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
@@ -154,6 +155,7 @@
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Edit.aspx" />
     <Content Include="Views\Video\Andreagpp.aspx" />
+    <Content Include="Views\Video\AndreagppDetails.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
     <Content Include="Views\Video\Ashbatis30Delete.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
