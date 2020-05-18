@@ -187,6 +187,7 @@
     <Content Include="Views\Video\ghs29Borrar.aspx" />
     <Content Include="Views\Video\ghs29Editar.aspx" />
     <Content Include="Views\Video\ialemares.aspx" />
+    <Content Include="Views\Video\Isaac.aspx" />
     <Content Include="Views\Video\jahirgranadosDetails.aspx" />
     <Content Include="Views\Video\jahirgranadosV.aspx" />
     <Content Include="Views\Video\JAOG2000.aspx" />
