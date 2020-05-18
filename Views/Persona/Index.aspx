@@ -119,8 +119,10 @@
 
     <a href="/Persona/RogelioRodriguez">RogelioRodriguez</a>
     <br />
-    <br />  
 
+    <a href="/Persona/Isaac">Isaac</a>
+    <br />  
+    <br />
     <a href="/Home/Index">Regresar</a>
 </body>
 </html>
