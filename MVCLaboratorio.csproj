@@ -154,7 +154,9 @@
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Edit.aspx" />
     <Content Include="Views\Video\Andreagpp.aspx" />
+    <Content Include="Views\Video\AndreagppDelete.aspx" />
     <Content Include="Views\Video\AndreagppDetails.aspx" />
+    <Content Include="Views\Video\AndreagppEdit.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
     <Content Include="Views\Video\Ashbatis30Delete.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
