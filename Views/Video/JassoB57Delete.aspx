@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Eliminar</title>
+    <title>Eliminar Videos</title>
 </head>
 <body>
     <h3>Seguro que deseas eliminar</h3>

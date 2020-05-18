@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>EDITAR</title>
+    <title>EDITAR VIDEOS</title>
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
@@ -53,7 +53,7 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la lista", "JassoB57") %>
+        <%: Html.ActionLink("Regrese a la lista", "JassoB57") %>
     </div>
 
 </body>
