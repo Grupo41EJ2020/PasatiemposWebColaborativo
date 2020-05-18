@@ -133,6 +133,7 @@
     <Content Include="Views\Shared\DanError.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\JAOG2000Error.aspx" />
+    <Content Include="Views\Shared\YaelMendez23Error.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
     <Content Include="Views\Video\AlancryptoDelete.aspx" />
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
@@ -232,6 +233,9 @@
     <Content Include="Views\Video\SantosGuzman01Details.aspx" />
     <Content Include="Views\Video\SantosGuzman01Edit.aspx" />
     <Content Include="Views\Video\YaelMendez23.aspx" />
+    <Content Include="Views\Video\YaelMendez23Delete.aspx" />
+    <Content Include="Views\Video\YaelMendez23Detalles.aspx" />
+    <Content Include="Views\Video\YaelMendez23Edit.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
