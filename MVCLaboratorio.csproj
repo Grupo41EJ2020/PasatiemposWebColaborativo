@@ -128,7 +128,6 @@
     <Content Include="Views\Persona\SantosGuzman01.aspx" />
     <Content Include="Views\Persona\YaelMendez23.aspx" />
     <Content Include="Views\Shared\alemaresError.aspx" />
-    <Content Include="Views\Shared\AndreagppError.aspx" />
     <Content Include="Views\Shared\Ashbatis30Error.aspx" />
     <Content Include="Views\Shared\AndreaEstrada21Error.aspx" />
     <Content Include="Views\Shared\DanError.aspx" />
@@ -192,6 +191,8 @@
     <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
+    <Content Include="Views\Video\JonathanVBDelete.aspx" />
+    <Content Include="Views\Video\JonathanVBEdit.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
