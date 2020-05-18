@@ -190,6 +190,8 @@
     <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
+    <Content Include="Views\Video\JonathanVBDelete.aspx" />
+    <Content Include="Views\Video\JonathanVBEdit.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
