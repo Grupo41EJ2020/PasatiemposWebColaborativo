@@ -8,8 +8,8 @@
 </head>
 <body>
    <h1>Mi pasatiempo</h1>
-<h2>Me gusta dormir</h2>
-    <p>Y ver videos en Youtube</p>
+<h2>Me gusta escuchar musica</h2>
+    <p>Y aprender sobre programas</p>
     <a href="/Video/Isaac">Ver Videos</a>
     <a href="/Persona/Index">Regresar</a>
 </body>
