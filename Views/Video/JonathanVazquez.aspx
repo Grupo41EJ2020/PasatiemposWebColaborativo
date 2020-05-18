@@ -268,9 +268,9 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "JonathanVazquezEdit", new { id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Editar", "JonathanVBEdit", new { id=item.IdVideo  }) %> |
                 <%: Html.ActionLink("Ver detalles", "JonathanVazquezDetails", new {  id=item.IdVideo })%> |
-                <%: Html.ActionLink("Borrar", "JonathanVazquezDelete", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Borrar", "JonathanVBDelete", new {  id=item.IdVideo  })%>
             </td>
             <td>
                 <%: item.IdVideo %>

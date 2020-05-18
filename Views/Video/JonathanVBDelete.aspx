@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>JonathanVazquezDetails</title>
-     <style>
+    <title>JonathanVBDelete</title>
+    <style>
     body{
 	margin: 0;
 	padding: 0;
@@ -63,8 +63,9 @@ a:hover:before{
     </style>
 </head>
 <body>
+    <h3>Are you sure you want to delete this?</h3>
     <fieldset>
-        <legend>Detalles del video</legend>
+        <legend>Fields</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
@@ -79,10 +80,12 @@ a:hover:before{
         <div class="display-field"><%: String.Format("{0:g}", Model.FechaPublicacion) %></div>
         
     </fieldset>
-    <p>
-        <%: Html.ActionLink("Editar", "JonathanVazquezEdit", new { id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar", "JonathanVazquez") %>
-    </p>
+    <% using (Html.BeginForm()) { %>
+        <p>
+		    <input type="submit" value="Delete" /> |
+		    <%: Html.ActionLink("Regresar", "JonathanVazquez") %>
+        </p>
+    <% } %>
 
 </body>
 </html>

@@ -138,7 +138,9 @@
     <Content Include="Views\Video\AlancryptoDelete.aspx" />
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
     <Content Include="Views\Video\AlancryptoEdit.aspx" />
+    <Content Include="Views\Video\alemaresDelete.aspx" />
     <Content Include="Views\Video\alemaresDetails.aspx" />
+    <Content Include="Views\Video\alemaresEdit.aspx" />
     <Content Include="Views\Video\Alexibarra999.aspx" />
     <Content Include="Views\Video\Alexibarra999Delete.aspx" />
     <Content Include="Views\Video\Alexibarra999Details.aspx" />
@@ -153,6 +155,9 @@
     <Content Include="Views\Video\AndreaEstrada21Details.aspx" />
     <Content Include="Views\Video\AndreaEstrada21Edit.aspx" />
     <Content Include="Views\Video\Andreagpp.aspx" />
+    <Content Include="Views\Video\AndreagppDelete.aspx" />
+    <Content Include="Views\Video\AndreagppDetails.aspx" />
+    <Content Include="Views\Video\AndreagppEdit.aspx" />
     <Content Include="Views\Video\Ashbatis30.aspx" />
     <Content Include="Views\Video\Ashbatis30Delete.aspx" />
     <Content Include="Views\Video\Ashbatis30Details.aspx" />
@@ -189,7 +194,10 @@
     <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
+    <Content Include="Views\Video\JonathanVBDelete.aspx" />
+    <Content Include="Views\Video\JonathanVBEdit.aspx" />
     <Content Include="Views\Video\JustAlvaro.aspx" />
+    <Content Include="Views\Video\JustAlvaroDetails.aspx" />
     <Content Include="Views\Video\lesliemorales26.aspx" />
     <Content Include="Views\Video\Edalmaj.aspx" />
     <Content Include="Views\Video\lesliemorales26Delete.aspx" />
@@ -212,6 +220,10 @@
     <Content Include="Views\Video\NoelGamezDelete.aspx" />
     <Content Include="Views\Video\NoelGamezDetails.aspx" />
     <Content Include="Views\Video\NoelGamezEdit.aspx" />
+    <Content Include="Views\Video\PaolaDuarteLrd.aspx" />
+    <Content Include="Views\Video\PaolaDuarteLrdDelete.aspx" />
+    <Content Include="Views\Video\PaolaDuarteLrdDetails.aspx" />
+    <Content Include="Views\Video\PaolaDuarteLrdEdit.aspx" />
     <Content Include="Views\Video\PriscilaCtz.aspx" />
     <Content Include="Views\Video\PriscilaCtzDelete.aspx" />
     <Content Include="Views\Video\PriscilaCtzDetails.aspx" />

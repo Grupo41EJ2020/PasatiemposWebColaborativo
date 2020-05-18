@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Lista de videos de JustAlvaro</title>
+    <title>Lista de videos de PaolaDuarteLrd</title>
 </head>
 <body>
     <table>
@@ -17,16 +17,15 @@
                 Nombre
             </th>
             
-            
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "JustAlvaroEdit", new {  id=item.IdVideo  }) %> |
-                <%: Html.ActionLink("Ver Detalles", "JustAlvaroDetails", new {  id=item.IdVideo  })%> |
-                <%: Html.ActionLink("Borrar", "JustAlvaroDelete", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Editar", "PaolaDuarteLrdEdit", new { id = item.IdVideo })%> |
+                <%: Html.ActionLink("Ver detalles", "PaolaDuarteLrdDetails", new { id = item.IdVideo })%> |
+                <%: Html.ActionLink("Borrar", "PaolaDuarteLrdDelete", new { id = item.IdVideo })%>
             </td>
             <td>
                 <%: item.IdVideo %>
@@ -34,8 +33,7 @@
             <td>
                 <%: item.Nombre %>
             </td>
-           
-           
+            
         </tr>
     
     <% } %>
@@ -43,7 +41,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Crear Nuevo Video", "Create") %>
+        <%: Html.ActionLink("Crear nuevo video", "Create") %>
     </p>
 
 </body>
