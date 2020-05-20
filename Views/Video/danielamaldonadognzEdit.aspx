@@ -25,6 +25,14 @@
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>
             <div class="editor-field">
+                <%: Html.TextBoxFor(model => model.Nombre) %>
+                <%: Html.ValidationMessageFor(model => model.Nombre) %>
+            </div>
+            
+            <div class="editor-label">
+                <%: Html.LabelFor(model => model.Url) %>
+            </div>
+            <div class="editor-field">
                 <%: Html.TextBoxFor(model => model.Url) %>
                 <%: Html.ValidationMessageFor(model => model.Url) %>
             </div>
@@ -45,7 +53,7 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la lista", "AnaKarenLopez") %>
+        <%: Html.ActionLink("Regresar a la lista", "danielamaldonadognz")%>
     </div>
 
 </body>
