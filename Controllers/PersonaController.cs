@@ -180,5 +180,9 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
 
+        public ActionResult JonatanGC7()
+        {
+            return View();
+        }
     }
 }

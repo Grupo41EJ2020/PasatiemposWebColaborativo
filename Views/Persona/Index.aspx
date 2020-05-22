@@ -122,6 +122,9 @@
 
     <a href="/Persona/Isaac">Isaac</a>
     <br />
+      <a href="/Persona/JonatanGC7">JonatanGC7</a>
+    <br />
+
     <br />  
        <a href="/Home/Index">Regresar</a>
 </body>
