@@ -202,6 +202,10 @@
     <Content Include="Views\Video\JassoB57Delete.aspx" />
     <Content Include="Views\Video\JassoB57Details.aspx" />
     <Content Include="Views\Video\JassoB57Edit.aspx" />
+    <Content Include="Views\Video\jenniferhdzDelete.aspx" />
+    <Content Include="Views\Video\jenniferhdzf.aspx" />
+    <Content Include="Views\Video\jenniferhdzfDetails.aspx" />
+    <Content Include="Views\Video\jenniferhdzfEdit.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JonathanVBDelete.aspx" />

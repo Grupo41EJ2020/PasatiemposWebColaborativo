@@ -15,7 +15,13 @@
            <h2>Y gusta Ver Anime      </h2>
     <br />  
         <img src="https://www.zonarutoppuden.com/wp-content/uploads/2015/12/naruto-uzumaki-nino-pequeno-png.png" />   
-    <br />  
+    <br /> 
+    
+    
+          <br />  
+    <a href="/Video/jenniferhdzf/">Ver videos</a>
+     
+    <br />   
   <a href="/Persona/Index">Regresar</a>
 </body>
 </html>
