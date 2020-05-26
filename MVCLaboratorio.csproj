@@ -265,6 +265,7 @@
     <Content Include="Views\Video\SantosGuzman01Details.aspx" />
     <Content Include="Views\Video\SantosGuzman01Edit.aspx" />
     <Content Include="Views\Video\SirObzedat.aspx" />
+    <Content Include="Views\Video\SirObzedatDelete.aspx" />
     <Content Include="Views\Video\SirObzedatDetails.aspx" />
     <Content Include="Views\Video\YaelMendez23.aspx" />
     <Content Include="Views\Video\YaelMendez23Delete.aspx" />
