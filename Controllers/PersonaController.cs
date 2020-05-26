@@ -184,5 +184,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult SirObzedat()
+        {
+            return View();
+        }
+
     }
 }
