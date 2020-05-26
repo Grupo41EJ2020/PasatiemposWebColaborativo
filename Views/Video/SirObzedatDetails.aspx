@@ -3,8 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>Detalles del video</title>
+<head id="Head1" runat="server">
+    <title>Detalles Del Video</title>
 </head>
 <body>
     <fieldset>
@@ -24,10 +24,9 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Editar", "Ashbatis30Edit", new { id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar a la lista", "Ashbatis30") %>
+        <%: Html.ActionLink("Editar", "SirObzedatDetails", new { id = Model.IdVideo })%> |
+        <%: Html.ActionLink("Regresar a la lista", "SirObzedat")%>
     </p>
 
 </body>
 </html>
-

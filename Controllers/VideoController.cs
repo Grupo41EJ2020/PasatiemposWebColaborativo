@@ -17,7 +17,7 @@ namespace MVCLaboratorio.Controllers
 
         public ActionResult LIIGabriel()
         {
-            return View( repoVideo.obtenerVideos());
+            return View(repoVideo.obtenerVideos());
         }
 
         public ActionResult jenniferhdzf()
@@ -31,7 +31,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult Index()
         {
             return View();
-        } 
+        }
 
         public ActionResult LIIGabrielDetails(int id)
         {
@@ -236,7 +236,8 @@ namespace MVCLaboratorio.Controllers
 
         }
 
-        public ActionResult lesliemorales26Delete(int id) {
+        public ActionResult lesliemorales26Delete(int id)
+        {
 
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
@@ -258,13 +259,14 @@ namespace MVCLaboratorio.Controllers
                 //No encontrado
                 return View("Error");
             }
-             
+
         }
 
         [HttpPost]
-        public ActionResult lesliemorales26Delete(int id,FormCollection frm) {
+        public ActionResult lesliemorales26Delete(int id, FormCollection frm)
+        {
 
-             List<SqlParameter> parametros = new List<SqlParameter>();
+            List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
 
             BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
@@ -296,9 +298,9 @@ namespace MVCLaboratorio.Controllers
         }
 
         [HttpPost]
-        public ActionResult lesliemorales26Edit(int id,Video datos)
+        public ActionResult lesliemorales26Edit(int id, Video datos)
         {
-            
+
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
             parametros.Add(new SqlParameter("@Nombre", datos.Nombre));
@@ -330,7 +332,7 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
-     
+
 
         public ActionResult EdalmajDetails(int id)
         {
@@ -575,7 +577,7 @@ namespace MVCLaboratorio.Controllers
             repoVideo.actualizarVideo(datos);
             return RedirectToAction("LIIGabriel");
         }
-       
+
 
 
 
@@ -945,7 +947,7 @@ namespace MVCLaboratorio.Controllers
             return View(lstvideos);
         }
 
-       
+
 
         public ActionResult YaelMendez23Detalles(int id)
         {
@@ -1035,7 +1037,7 @@ namespace MVCLaboratorio.Controllers
 
         }
 
-        
+
         [HttpPost]
         public ActionResult YaeMendez23Edit(int id, Video datos)
         {
@@ -1346,8 +1348,8 @@ namespace MVCLaboratorio.Controllers
         public ActionResult luiks13Details(int id)
         {
             //Consultar los datos del video
-            List<SqlParameter> parametros= new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo",id));
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
             DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
             Video miVideo = new Video();
             if (dtVideo.Rows.Count > 0)
@@ -1358,34 +1360,35 @@ namespace MVCLaboratorio.Controllers
                 miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
                 return View(miVideo);
             }
-            else { //no encontrado
+            else
+            { //no encontrado
                 return View("error");
             }
         }
 
         public ActionResult luiks13Delete(int id)
-       {  //obtener info del video
-           List<SqlParameter> parametros = new List<SqlParameter>();
-           parametros.Add(new SqlParameter("@IdVideo", id));
-           DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-           Video miVideo = new Video();
-           if (dtVideo.Rows.Count > 0)
-           {
-               miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-               miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-               miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-               miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-               return View(miVideo);
-           }
-           else
-           { //no encontrado
-               return View("error");
-           }
-           
-       }
+        {  //obtener info del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+            Video miVideo = new Video();
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+            }
+            else
+            { //no encontrado
+                return View("error");
+            }
 
-    [HttpPost]
-        public ActionResult luiks13Delete(int id,FormCollection frm)
+        }
+
+        [HttpPost]
+        public ActionResult luiks13Delete(int id, FormCollection frm)
         {
             //obtener info del video
             List<SqlParameter> parametros = new List<SqlParameter>();
@@ -1394,8 +1397,8 @@ namespace MVCLaboratorio.Controllers
             return RedirectToAction("luiks13");
         }
 
-        public ActionResult luiks13Edit(int id) 
-        { 
+        public ActionResult luiks13Edit(int id)
+        {
             //Obtener la info del video para llenar las cajas con los datos
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
@@ -1414,7 +1417,7 @@ namespace MVCLaboratorio.Controllers
                 return View("error");
             }
 
-       }
+        }
 
         [HttpPost]
         public ActionResult luiks13Edit(int id, Video datos)
@@ -1428,7 +1431,7 @@ namespace MVCLaboratorio.Controllers
             BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
             return RedirectToAction("luiks13");
             return View();
-        } 
+        }
 
         public ActionResult jahirgranadosV()
         {
@@ -1539,34 +1542,34 @@ namespace MVCLaboratorio.Controllers
             {
                 return View("Error");
             }
-            
+
 
         }
         public ActionResult JustAlvaroDelete(int id)
-    {
-        List<SqlParameter> parametros = new List<SqlParameter>();
-        parametros.Add(new SqlParameter("@IdVideo", id));
-
-        DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
-        Video miVideo = new Video();
-
-        if (dtVideo.Rows.Count > 0)
         {
-            miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-            miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-            miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-            miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-            return View(miVideo);
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdVideo", id));
+
+            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Video miVideo = new Video();
+
+            if (dtVideo.Rows.Count > 0)
+            {
+                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                return View(miVideo);
+
+            }
+            else
+            {
+                return View("Error");
+            }
+
 
         }
-        else
-        {
-            return View("Error");
-        }
- 
-        
-    }
 
         [HttpPost]
         public ActionResult JustAlvaroDelete(int id, FormCollection frm)
@@ -1602,8 +1605,8 @@ namespace MVCLaboratorio.Controllers
             }
         }
 
-    [HttpPost]
-        public ActionResult JustAlvaroEdit(int id,Video datos)
+        [HttpPost]
+        public ActionResult JustAlvaroEdit(int id, Video datos)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
@@ -1613,8 +1616,8 @@ namespace MVCLaboratorio.Controllers
 
             BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
             return RedirectToAction("JustAlvaro");
-            
-       
+
+
         }
 
         public ActionResult AnaKarenLopez()
@@ -2474,9 +2477,9 @@ namespace MVCLaboratorio.Controllers
                 parametros.Add(new SqlParameter("@IdVideo", id));
 
                 DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-                
+
                 Video miVideo = new Video();
-               
+
                 if (dtVideo.Rows.Count > 0)
                 {
                     miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
@@ -2524,7 +2527,7 @@ namespace MVCLaboratorio.Controllers
             return RedirectToAction("Ashbatis30");
         }
 
-         public ActionResult Ashbatis30Edit(int id)
+        public ActionResult Ashbatis30Edit(int id)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", id));
@@ -2558,7 +2561,7 @@ namespace MVCLaboratorio.Controllers
             BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
             return RedirectToAction("Ashbatis30");
         }
-       
+
 
         public ActionResult AndreaEstrada21()
         {
@@ -2985,7 +2988,7 @@ namespace MVCLaboratorio.Controllers
             {
                 return View("Error");
             }
-       }
+        }
 
         [HttpPost]
         public ActionResult AndreagppDelete(int id, FormCollection frm)
@@ -3036,7 +3039,7 @@ namespace MVCLaboratorio.Controllers
 
             return RedirectToAction("Andreagpp");
         }
-        
+
         public ActionResult JAOG2000()
         {
             //obtener todos los videos
@@ -3601,7 +3604,31 @@ namespace MVCLaboratorio.Controllers
             }
             return View(lstvideos);
         }
+        public ActionResult SirObzedatDetails(int id)
+        {
+            {
+                //Consultar datos del video
+                List<SqlParameter> parametros = new List<SqlParameter>();
+                parametros.Add(new SqlParameter("@IdVideo", id));
 
+                DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+                Video miVideo = new Video();
+
+                if (dtVideo.Rows.Count > 0)
+                {
+                    miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
+                    miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
+                    miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
+                    miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
+                    return View(miVideo);
+                }
+                else //No encontrado
+                {
+                    return View("Error");
+                }
+            }
+        }
     }
 }
         
