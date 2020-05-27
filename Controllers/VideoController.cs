@@ -1202,124 +1202,42 @@ namespace MVCLaboratorio.Controllers
 
         public ActionResult JassoB57()
         {
-            //obtener los videos de la base de datos
-            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
-
-            List<Video> lstVideo = new List<Video>();
-
-            //convertir el DataTable en List
-            foreach (DataRow item in dtVideos.Rows)
-            {
-                Video dtsVideo = new Video();
-
-                dtsVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
-                dtsVideo.Nombre = item["Nombre"].ToString();
-                dtsVideo.Url = item["Url"].ToString();
-                dtsVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
-
-                lstVideo.Add(dtsVideo);
-            }
-
-            return View(lstVideo);
+            return View(repoVideo.obtenerVideos());
+           
         }
 
 
         public ActionResult JassoB57Details(int id)
         {
-            //consultar datos del video
-            List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
-
-            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
-            Video miVideo = new Video();
-
-            if (dtVideo.Rows.Count > 0)
-            {
-                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-                return View(miVideo);
-            }
-            else
-            { //No encontrado
-                return View("Error");
-            }
+            return View(repoVideo.obtenerVideo(id));
         }
         public ActionResult JassoB57Delete(int id)
         {
-            //obtener info del video
-            List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
 
-            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
-            Video miVideo = new Video();
-
-            if (dtVideo.Rows.Count > 0)
-            {
-                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-                return View(miVideo);
-            }
-            else
-            {  //no encontrado 
-                return View("Error");
-            }
-
+            return View(repoVideo.obtenerVideo(id));
         }
 
         [HttpPost]
         public ActionResult JassoB57Delete(int id, FormCollection frm)
         {
-            //obtener info del video
-            List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
-
-            BaseHelper.ejecutarConsulta("sp_Video_Eliminar", CommandType.StoredProcedure, parametros);
-            return RedirectToAction("JassoB57");
+            repoVideo.eliminarVideo(id);
+            return RedirectToAction("LIIGabriel");
         }
 
         public ActionResult JassoB57Edit(int id)
         {
-            //consultar los datos del video
-            List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
-
-            DataTable dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
-
-            Video miVideo = new Video();
-
-            if (dtVideo.Rows.Count > 0)
-            {
-                miVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
-                miVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
-                miVideo.Url = dtVideo.Rows[0]["Url"].ToString();
-                miVideo.FechaPublicacion = DateTime.Parse(dtVideo.Rows[0]["FechaPublicacion"].ToString());
-                return View(miVideo);
-            }
-            else
-            {  //no encontrado 
-                return View("Error");
-            }
+            return View(repoVideo.obtenerVideo(id));
         }
 
         [HttpPost]
         public ActionResult JassoB57Edit(int id, Video datos)
         {
-            //realizar el update
-            List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdVideo", id));
-            parametros.Add(new SqlParameter("@Nombre", datos.Nombre));
-            parametros.Add(new SqlParameter("@Url", datos.Url));
-            parametros.Add(new SqlParameter("@FechaPublicacion", datos.FechaPublicacion));
-
-            BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
+            datos.IdVideo = id;
+            repoVideo.actualizarVideo(datos);
             return RedirectToAction("JassoB57");
         }
+
+
         public ActionResult luiks13()
         {
             //obtiene los videos en la base de datos
