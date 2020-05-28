@@ -1221,7 +1221,7 @@ namespace MVCLaboratorio.Controllers
         public ActionResult JassoB57Delete(int id, FormCollection frm)
         {
             repoVideo.eliminarVideo(id);
-            return RedirectToAction("LIIGabriel");
+            return RedirectToAction("JassoB57");
         }
 
         public ActionResult JassoB57Edit(int id)
