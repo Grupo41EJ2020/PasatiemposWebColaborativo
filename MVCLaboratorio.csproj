@@ -210,6 +210,7 @@
     <Content Include="Views\Video\JonatanGC7.aspx" />
     <Content Include="Views\Video\JonatanGC7Delete.aspx" />
     <Content Include="Views\Video\JonatanGC7Details.aspx" />
+    <Content Include="Views\Video\JonatanGC7Edit.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
     <Content Include="Views\Video\JonathanVBDelete.aspx" />
