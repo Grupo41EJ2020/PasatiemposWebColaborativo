@@ -208,6 +208,7 @@
     <Content Include="Views\Video\jenniferhdzfDetails.aspx" />
     <Content Include="Views\Video\jenniferhdzfEdit.aspx" />
     <Content Include="Views\Video\JonatanGC7.aspx" />
+    <Content Include="Views\Video\JonatanGC7Delete.aspx" />
     <Content Include="Views\Video\JonatanGC7Details.aspx" />
     <Content Include="Views\Video\JonathanVazquez.aspx" />
     <Content Include="Views\Video\JonathanVazquezDetails.aspx" />
