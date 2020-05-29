@@ -3726,6 +3726,23 @@ namespace MVCLaboratorio.Controllers
             BaseHelper.ejecutarConsulta("sp_Video_Actualizar", CommandType.StoredProcedure, parametros);
             return RedirectToAction("JonatanGC7");
         }
+        public ActionResult aboitesabril13()
+        {
+            DataTable dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
+            List<Video> lstvideos = new List<Video>();
+            foreach (DataRow item in dtVideos.Rows)
+            {
+                Video datosVideo = new Video();
+                datosVideo.IdVideo = int.Parse(item["IdVideo"].ToString());
+                datosVideo.Nombre = item["Nombre"].ToString();
+                datosVideo.Url = item["Url"].ToString();
+                datosVideo.FechaPublicacion = DateTime.Parse(item["FechaPublicacion"].ToString());
+
+                lstvideos.Add(datosVideo);
+
+            }
+            return View(lstvideos);
+        }
     }
 }
 
