@@ -141,6 +141,7 @@
     <Content Include="Views\Shared\JAOG2000Error.aspx" />
     <Content Include="Views\Shared\YaelMendez23Error.aspx" />
     <Content Include="Views\Video\aboitesabril13.aspx" />
+    <Content Include="Views\Video\aboitesabril13Details.aspx" />
     <Content Include="Views\Video\Alancrypto.aspx" />
     <Content Include="Views\Video\AlancryptoDelete.aspx" />
     <Content Include="Views\Video\AlancryptoDetails.aspx" />
